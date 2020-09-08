@@ -1,0 +1,282 @@
+/* Logo */
+.logo{
+    max-width: 50%;
+}
+.logoimg{
+    width: 40%;
+}
+.icon_menu:before{
+    color: #FCFCFC;
+}
+@media (max-width: 994px) {
+    .logo{
+        text-align: center;
+        max-width: 100%;
+
+    }
+    .logoimg { 
+      max-width: 55%;
+    }
+  }
+  
+/* navigation bar*/
+.main_nav{
+    background-color: #2A2E4D;
+}
+
+/* Course Tick icon */
+.course_icon{
+    max-width: 17px;
+    margin-right: 5px;
+}
+/* course section know more button */
+.courses_item_iner h5{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.courses_item_iner p{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #2A2E4D;
+}
+.courses_item_iner ul{
+  padding:0px;
+}
+.courses_item_iner ul li{
+    margin-bottom:5px ;
+  }
+.course_h2{
+    color: #fcfcfc;
+}
+
+
+/* below course section */
+.Ongoing_course{
+    background-color: #FFAA33;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* testimonials */
+.testimonialStyle{
+    padding: 100px 0px 30px 0px;
+}
+.alchemystStyle{
+    padding: 30px 0px 30px 0px;
+}
+.alchemystParah{
+    font-size: 22px;
+    margin-top: 3rem;
+}
+/* video section */
+.motivation_content{
+    color: #fcfcfc;
+}
+
+
+/* Footer */
+.dark-bg,
+#help {
+  background: #2a2e4d;
+  padding: 1.5rem 0;
+  color: #fcfcfc;
+}
+
+.dark-bg .section-title,
+.dark-bg .title-line,
+.dark-bg .caption {
+  color: #fcfcfc;
+  border-color: #fcfcfc;
+}
+
+
+.footer-main {
+    padding: 100px 0px 120px;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .footer-copy {
+    padding-top: 5px;
+    padding-bottom: 50px;
+  }
+  
+  .footer-copy {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #fcfcfc;
+    padding: 25px 0px;
+  }
+  
+  
+  .footer-main .contact-widget p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #fcfcfc;
+  }
+  
+  .footer-main .contact-widget p a {
+    color: #f81271;
+    transition: all 0.2s ease-out;
+  }
+  
+  .footer-main .contact-widget p a:hover {
+    color: #fcfcfc;
+  }
+  
+  a:hover,
+  a:focus,
+  .btn:hover,
+  .btn:focus,
+  button:hover,
+  button:focus {
+    text-decoration: none;
+    outline: none;
+    color: #fcfcfc;
+  }
+  
+  .footer-main .about-widget .f-list li a {
+    color: #fcfcfc;
+    font-size: 14px;
+  }
+  
+  .footer-main .about-widget .f-list li a:hover {
+    color: #f81271;
+  }
+  
+  .footer-main .about-widget .f-list li {
+    margin-bottom: 11px;
+  }
+  
+  .about-widget .f-list li:last-child {
+    margin-bottom: 0px;
+  }
+  
+  .about-widget .f-list li {
+    margin-bottom: 15px;
+  }
+  
+  .about-widget .f-list {
+    margin-bottom: 0px;
+  }
+  
+  .social-widget .logo {
+    width: 40%;
+    height: auto;
+  }
+  
+  .social-widget p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #fcfcfc;
+  }
+  
+  .footer-main .social-icon a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: transparent;
+    border: 1px solid #876ce9;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fcfcfc;
+    margin: 0.2rem 0.1rem 0.4rem;
+  
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  .footer-main .social-icon a:hover {
+    background: #f81271;
+    border-color: #f81271;
+    color: #fcfcfc;
+  }
+  
+  .footer-main .social-icon a+a {
+    margin-left: 4px;
+  }
+  
+  .footer-main .f-title {
+    margin-bottom: 1rem;
+    color: #fcfcfc;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+  .footer-main .footer-bg {
+    position: absolute;
+    bottom: 0;
+    background: url('http://droitthemes.com/html/saasland/img/seo/footer_bg.png') no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+    opacity: 0.8;
+  }
+  
+  .footer-main .footer-bg .footer-bg-one {
+    background: url('https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif') no-repeat center center;
+    width: 330px;
+    height: 105px;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+  }
+  
+  .footer-main .footer-bg .footer-bg-two {
+    background: url('https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif') no-repeat center center;
+    width: 88px;
+    height: 100px;
+    background-size: 100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+  }
+  
+  @-moz-keyframes myfirst {
+    0% {
+      left: -25%;
+    }
+  
+    100% {
+      left: 100%;
+    }
+  }
+  
+  @-webkit-keyframes myfirst {
+    0% {
+      left: -25%;
+    }
+  
+    100% {
+      left: 100%;
+    }
+  }
+  
+  @keyframes myfirst {
+    0% {
+      left: -25%;
+    }
+  
+    100% {
+      left: 100%;
+    }
+  }
+  /*  end of footer*/

@@ -1,0 +1,6512 @@
+/**************** common css start ****************/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+/* line 3, D:/February/education/education_HTML/scss/_reset.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  /* line 10, D:/February/education/education_HTML/scss/_reset.scss */
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/* line 15, D:/February/education/education_HTML/scss/_reset.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 19, D:/February/education/education_HTML/scss/_reset.scss */
+input:hover, input:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 0px 0px transparent;
+}
+
+/* line 23, D:/February/education/education_HTML/scss/_reset.scss */
+:focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+
+/* line 26, D:/February/education/education_HTML/scss/_reset.scss */
+.custom-file-input:focus ~ .custom-file-label {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* line 30, D:/February/education/education_HTML/scss/_reset.scss */
+.form-control:focus {
+  box-shadow: 0 0 0 0rem transparent !important;
+  border-color: #dce1e9;
+}
+
+/* line 34, D:/February/education/education_HTML/scss/_reset.scss */
+.section_padding {
+  padding: 120px 0px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 34, D:/February/education/education_HTML/scss/_reset.scss */
+  .section_padding {
+    padding: 100px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 34, D:/February/education/education_HTML/scss/_reset.scss */
+  .section_padding {
+    padding: 70px 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 34, D:/February/education/education_HTML/scss/_reset.scss */
+  .section_padding {
+    padding: 70px 0px;
+  }
+}
+
+/* line 46, D:/February/education/education_HTML/scss/_reset.scss */
+.padding_top {
+  padding-top: 120px;
+}
+
+@media (max-width: 991px) {
+  /* line 46, D:/February/education/education_HTML/scss/_reset.scss */
+  .padding_top {
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 46, D:/February/education/education_HTML/scss/_reset.scss */
+  .padding_top {
+    padding-top: 100px;
+  }
+}
+
+/* line 55, D:/February/education/education_HTML/scss/_reset.scss */
+.padding_bottom {
+  padding-bottom: 120px;
+}
+
+@media (max-width: 991px) {
+  /* line 55, D:/February/education/education_HTML/scss/_reset.scss */
+  .padding_bottom {
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 55, D:/February/education/education_HTML/scss/_reset.scss */
+  .padding_bottom {
+    padding-bottom: 100px;
+  }
+}
+
+/* line 64, D:/February/education/education_HTML/scss/_reset.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 67, D:/February/education/education_HTML/scss/_reset.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 71, D:/February/education/education_HTML/scss/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  /* color: #0b1c39; */
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 75, D:/February/education/education_HTML/scss/_reset.scss */
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+/* line 79, D:/February/education/education_HTML/scss/_reset.scss */
+p {
+  /* line-height: 30px; */
+  font-size: 16px;
+  margin-bottom: 0px;
+  /* color: #fcfcfc; */
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 86, D:/February/education/education_HTML/scss/_reset.scss */
+a:focus, .button:focus, button:focus, .btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+/* line 92, D:/February/education/education_HTML/scss/_reset.scss */
+.p_30 {
+  padding: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 92, D:/February/education/education_HTML/scss/_reset.scss */
+  .p_30 {
+    padding: 20px;
+  }
+}
+
+/* line 98, D:/February/education/education_HTML/scss/_reset.scss */
+.p_20 {
+  padding: 20px;
+}
+
+/* line 101, D:/February/education/education_HTML/scss/_reset.scss */
+.p_15 {
+  padding: 20px 20px 15px;
+}
+
+/* line 104, D:/February/education/education_HTML/scss/_reset.scss */
+.pt_30 {
+  padding-top: 30px;
+}
+
+/* line 107, D:/February/education/education_HTML/scss/_reset.scss */
+.pb_20 {
+  padding-bottom: 20px;
+}
+
+/* line 110, D:/February/education/education_HTML/scss/_reset.scss */
+.mt_25 {
+  margin-top: 25px;
+}
+
+/* line 113, D:/February/education/education_HTML/scss/_reset.scss */
+.mt_30 {
+  margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 113, D:/February/education/education_HTML/scss/_reset.scss */
+  .mt_30 {
+    margin-top: 15px;
+  }
+}
+
+/* line 119, D:/February/education/education_HTML/scss/_reset.scss */
+.mt_10 {
+  margin-top: 10px;
+}
+
+/* line 122, D:/February/education/education_HTML/scss/_reset.scss */
+.mb_15 {
+  margin-bottom: 15px;
+}
+
+/* line 125, D:/February/education/education_HTML/scss/_reset.scss */
+.mb_20 {
+  margin-bottom: 20px;
+}
+
+/* line 128, D:/February/education/education_HTML/scss/_reset.scss */
+.mb_25 {
+  margin-bottom: 20px;
+}
+
+/* line 131, D:/February/education/education_HTML/scss/_reset.scss */
+.mt_50 {
+  margin-top: 50px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 131, D:/February/education/education_HTML/scss/_reset.scss */
+  .mt_50 {
+    margin-top: 25px;
+  }
+}
+
+/* line 137, D:/February/education/education_HTML/scss/_reset.scss */
+.mt_25 {
+  margin-top: 25px !important;
+}
+
+@media (max-width: 991px) {
+  /* line 137, D:/February/education/education_HTML/scss/_reset.scss */
+  .mt_25 {
+    margin-top: 15px !important;
+  }
+}
+
+/* line 143, D:/February/education/education_HTML/scss/_reset.scss */
+.mt_20 {
+  margin-top: 20px;
+}
+
+/* line 146, D:/February/education/education_HTML/scss/_reset.scss */
+.mb_10 {
+  margin-bottom: 10px !important;
+}
+
+/* line 149, D:/February/education/education_HTML/scss/_reset.scss */
+.mt_40 {
+  margin-top: 40px;
+}
+
+/* line 152, D:/February/education/education_HTML/scss/_reset.scss */
+.section_bg {
+  background-color: #2A2E4D;
+}
+
+/* line 155, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect {
+  border: 1px solid #dce1e9;
+  font-size: 13px;
+  color: #7c8189;
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+  padding: 0 20px;
+  border-radius: 6px;
+  float: inherit;
+  font-weight: 300;
+}
+
+/* line 166, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect:after {
+  border-bottom: 0 solid transparent;
+  border-right: 0 solid transparent;
+  content: "\33";
+  font-family: "eleganticons";
+  transform: rotate(0);
+  top: 3px;
+  right: 29px;
+  font-size: 19px !important;
+}
+
+@media (max-width: 767.98px) {
+  /* line 166, D:/February/education/education_HTML/scss/_reset.scss */
+  .niceSelect:after {
+    top: 13px;
+  }
+}
+
+/* line 179, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect .option:hover, .niceSelect .option.focus, .niceSelect .option.selected.focus {
+  background-color: transparent;
+}
+
+/* line 182, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect .option.selected {
+  font-weight: normal;
+  color: #F81271;
+}
+
+/* line 186, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect .option {
+  line-height: 34px;
+  min-height: 34px;
+  font-size: 14px;
+}
+
+/* line 191, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect .list {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #626a77;
+  padding: 20px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 191, D:/February/education/education_HTML/scss/_reset.scss */
+  .niceSelect .list {
+    padding: 5px;
+  }
+}
+
+/* line 205, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect .list li {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/* line 207, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect .list li:hover {
+  color: #F81271 !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 205, D:/February/education/education_HTML/scss/_reset.scss */
+  .niceSelect .list li {
+    line-height: 33px;
+    padding: 0;
+  }
+}
+
+/* line 217, D:/February/education/education_HTML/scss/_reset.scss */
+.niceSelect.open:after {
+  transform: rotate(0);
+  content: "\32";
+  font-family: "eleganticons";
+}
+
+/* line 222, D:/February/education/education_HTML/scss/_reset.scss */
+.nice-select.open .list {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+/* line 229, D:/February/education/education_HTML/scss/_reset.scss */
+.cu_dropdown .btn {
+  border: 1px solid #dce1e9;
+  background-color: #f6f7fa;
+  color: #626a77;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 15px;
+}
+
+/* line 237, D:/February/education/education_HTML/scss/_reset.scss */
+.cu_dropdown .btn_1 {
+  padding: 11px 20px;
+}
+
+/* line 240, D:/February/education/education_HTML/scss/_reset.scss */
+.cu_dropdown .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: 0;
+  content: "\e64b";
+  border-top: none;
+  font-family: 'themify';
+  font-size: 10px;
+}
+
+/* line 249, D:/February/education/education_HTML/scss/_reset.scss */
+.cu_dropdown .dropdown-menu {
+  min-width: auto;
+  background-color: #0b1c39;
+  min-width: 102px;
+  left: 0 !important;
+  border-radius: 0 0 5px 5px;
+  top: -2px !important;
+  padding: 17px 0;
+}
+
+/* line 257, D:/February/education/education_HTML/scss/_reset.scss */
+.cu_dropdown .dropdown-menu .dropdown-item {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 7px 20px;
+  padding: 7px 20px;
+  color: #fff;
+}
+
+/* line 267, D:/February/education/education_HTML/scss/_reset.scss */
+.cu_dropdown .left_arrow:hover {
+  background-color: transparent;
+  padding-left: 38px;
+}
+
+/* line 271, D:/February/education/education_HTML/scss/_reset.scss */
+.cu_dropdown .left_arrow:after {
+  left: 18px;
+  top: 11px;
+}
+
+/* line 277, D:/February/education/education_HTML/scss/_reset.scss */
+.section_tittle {
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 277, D:/February/education/education_HTML/scss/_reset.scss */
+  .section_tittle {
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 277, D:/February/education/education_HTML/scss/_reset.scss */
+  .section_tittle {
+    margin-bottom: 45px;
+  }
+}
+
+/* line 286, D:/February/education/education_HTML/scss/_reset.scss */
+.section_tittle h2 {
+  font-weight: 700;
+  margin-bottom: 12px;
+ 
+}
+
+@media (max-width: 767.98px) {
+  /* line 286, D:/February/education/education_HTML/scss/_reset.scss */
+  .section_tittle h2 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 286, D:/February/education/education_HTML/scss/_reset.scss */
+  .section_tittle h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+/* line 300, D:/February/education/education_HTML/scss/_reset.scss */
+.show .btn {
+  background-color: #F81271;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 305, D:/February/education/education_HTML/scss/_reset.scss */
+.show .dropdown-toggle::after {
+  transform: rotate(180deg);
+  color: #fff;
+}
+
+/* line 311, D:/February/education/education_HTML/scss/_reset.scss */
+.preloder_part {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+  background-color: #fff;
+}
+
+/* line 319, D:/February/education/education_HTML/scss/_reset.scss */
+.preloder_part .spinner {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  right: 0;
+  top: 48%;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+  z-index: 99999;
+}
+
+/* line 333, D:/February/education/education_HTML/scss/_reset.scss */
+.preloder_part .dot1, .preloder_part .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #F81271;
+  border-radius: 100%;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+/* line 346, D:/February/education/education_HTML/scss/_reset.scss */
+.preloder_part .dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes sk-rotate {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+/* line 372, D:/February/education/education_HTML/scss/_reset.scss */
+.page_pageination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* line 376, D:/February/education/education_HTML/scss/_reset.scss */
+.page_pageination a {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border: 2px solid #dce1e9;
+  text-align: center;
+  color: #9198a4;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 50px;
+  margin: 0px 5px;
+}
+
+/* line 387, D:/February/education/education_HTML/scss/_reset.scss */
+.page_pageination a:hover {
+  background-color: #F81271;
+  border: 2px solid #F81271;
+  color: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(89, 149, 253, 0.4);
+}
+
+/* line 393, D:/February/education/education_HTML/scss/_reset.scss */
+.page_pageination a i {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+/* line 398, D:/February/education/education_HTML/scss/_reset.scss */
+.page_pageination .active {
+  background-color: #F81271;
+  border: 1px solid #F81271;
+  color: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(89, 149, 253, 0.4);
+}
+
+/* line 405, D:/February/education/education_HTML/scss/_reset.scss */
+.progress-bar {
+  border-radius: 4px;
+}
+
+/* line 408, D:/February/education/education_HTML/scss/_reset.scss */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #fbfcfd;
+}
+
+/* line 412, D:/February/education/education_HTML/scss/_reset.scss */
+.common-checkbox {
+  display: none;
+}
+
+/* line 415, D:/February/education/education_HTML/scss/_reset.scss */
+.common-checkbox + label {
+  display: block;
+  cursor: pointer;
+  color: #626a77;
+}
+
+/* line 420, D:/February/education/education_HTML/scss/_reset.scss */
+.common-checkbox + label:before {
+  content: "";
+  border: 2px solid #a8aeb6;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  width: 14px;
+  height: 14px;
+  line-height: 15px;
+  padding-left: 0px;
+  margin-right: 14px;
+  vertical-align: bottom;
+  color: transparent;
+  position: relative;
+  top: -6px;
+}
+
+/* line 437, D:/February/education/education_HTML/scss/_reset.scss */
+.common-checkbox:checked + label:before {
+  content: "\5a";
+  border: 0px;
+  font-family: 'eleganticons';
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  width: 14px;
+  height: 14px;
+  line-height: 15px;
+  padding-left: 0px;
+  margin-right: 14px;
+  vertical-align: bottom;
+  color: #F81271;
+  position: relative;
+  top: -6px;
+}
+
+/* line 457, D:/February/education/education_HTML/scss/_reset.scss */
+.check_icon .common-checkbox + label:before {
+  border-radius: 50px;
+}
+
+/* line 460, D:/February/education/education_HTML/scss/_reset.scss */
+.check_icon .common-checkbox:checked + label:before {
+  content: "\5c";
+}
+
+/* line 466, D:/February/education/education_HTML/scss/_reset.scss */
+.custom_animation1 {
+  backface-visibility: hidden;
+  animation: jumping_animation 3s ease-in-out .5s infinite alternate;
+  animation-delay: .5s;
+  transition: all .5s ease 5s;
+  user-select: none;
+}
+
+/* line 473, D:/February/education/education_HTML/scss/_reset.scss */
+.custom_animation_2 {
+  backface-visibility: hidden;
+  animation: jumping_animation2 3s ease-in-out .5s infinite alternate;
+  animation-delay: .5s;
+  transition: all .5s ease 5s;
+  user-select: none;
+}
+
+/* line 481, D:/February/education/education_HTML/scss/_reset.scss */
+.custom-animation {
+  backface-visibility: hidden;
+  animation: jumping 3s ease-in-out .5s infinite alternate;
+  animation-delay: .5s;
+  transition: all .5s ease 5s;
+  user-select: none;
+}
+
+/* line 489, D:/February/education/education_HTML/scss/_reset.scss */
+.custom-animation2 {
+  backface-visibility: hidden;
+  animation: jumping2 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 1s ease 3s;
+  user-select: none;
+}
+
+/* line 497, D:/February/education/education_HTML/scss/_reset.scss */
+.custom-animation3 {
+  backface-visibility: hidden;
+  animation: jumping3 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 7s ease 2s;
+  user-select: none;
+}
+
+/* line 505, D:/February/education/education_HTML/scss/_reset.scss */
+.custom-animation4 {
+  backface-visibility: hidden;
+  animation: jumping4 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 8s ease 4s;
+  user-select: none;
+}
+
+/* line 513, D:/February/education/education_HTML/scss/_reset.scss */
+.custom-animation5 {
+  backface-visibility: hidden;
+  animation: jumping4 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 8s ease 4s;
+  user-select: none;
+}
+
+/* line 521, D:/February/education/education_HTML/scss/_reset.scss */
+.custom-animation6 {
+  backface-visibility: hidden;
+  animation: jumping6 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 8s ease 4s;
+  user-select: none;
+}
+
+/* line 529, D:/February/education/education_HTML/scss/_reset.scss */
+.custom_animation_icon {
+  backface-visibility: hidden;
+  animation: custom_animation_icon1 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 8s ease 4s;
+  user-select: none;
+}
+
+@keyframes jumping_animation {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(0) scale(1);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(-25px) translateX(-25px) rotate(5deg) scale(0.75);
+    opacity: .9;
+  }
+  100% {
+    transform: translateY(-25px) translateX(-25px) rotate(0) scale(1);
+    opacity: .85;
+  }
+}
+
+@keyframes jumping_animation2 {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(0) scale(1);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(-10px) translateX(-10px) rotate(2deg) scale(0.9);
+    opacity: .9;
+  }
+  100% {
+    transform: translateY(-20px) translateX(-20px) rotate(0) scale(1);
+    opacity: .85;
+  }
+}
+
+@keyframes jumping {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(0) scale(1);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(-25px) translateX(-25px) rotate(15deg) scale(0.95);
+    opacity: .9;
+  }
+  100% {
+    transform: translateY(-15px) translateX(-15px) rotate(0) scale(1);
+    opacity: .85;
+  }
+}
+
+@keyframes jumping {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(0) scale(1);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(-15px) translateX(-15px) rotate(15deg) scale(0.95);
+    opacity: .9;
+  }
+  100% {
+    transform: translateY(-15px) translateX(-15px) rotate(0) scale(1);
+    opacity: .85;
+  }
+}
+
+@keyframes jumping2 {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(0) scale(1);
+    opacity: .5;
+  }
+  25% {
+    transform: translateY(-30px) translateX(10px) rotate(20deg) scale(0.8);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.7);
+    opacity: .8;
+  }
+  75% {
+    transform: translateY(30px) translateX(20px) rotate(20deg) scale(0.75);
+    opacity: .7;
+  }
+  100% {
+    transform: translateY(-15px) translateX(15px) rotate(0) scale(0.75);
+    opacity: .9;
+  }
+}
+
+@keyframes jumping3 {
+  0% {
+    transform: translateY(10px) translateX(0) rotate(0) scale(1);
+    opacity: .9;
+  }
+  20% {
+    transform: translateY(20px) translateX(10px) rotate(-20deg) scale(0.8);
+    opacity: .8;
+  }
+  40% {
+    transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.75);
+    opacity: .8;
+  }
+  40% {
+    transform: translateY(-15px) translateX(-25px) rotate(10deg) scale(0.5);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-30px) translateX(20px) rotate(-20deg) scale(0.75);
+    opacity: .6;
+  }
+  100% {
+    transform: translateY(15px) translateX(15px) rotate(0) scale(0.95);
+    opacity: .7;
+  }
+}
+
+@keyframes jumping4 {
+  0% {
+    transform: translateY(-30px) translateX(20px) rotate(0) scale(1.2);
+    opacity: .7;
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px) rotate(50deg) scale(0.6);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(15px) translateX(-15px) rotate(20deg) scale(0.5);
+    opacity: .9;
+  }
+  75% {
+    transform: translateY(30px) translateX(20px) rotate(50deg) scale(0.75);
+    opacity: .7;
+  }
+  100% {
+    transform: translateY(-15px) translateX(15px) rotate(0) scale(0.5);
+    opacity: .9;
+  }
+}
+
+@keyframes jumping5 {
+  0% {
+    transform: rotate(180deg);
+    display: block;
+  }
+  100% {
+    transform: rotate(30deg);
+    display: block;
+  }
+}
+
+@keyframes jumping6 {
+  0% {
+    transform: rotate(180deg) translate(-20px, 20px);
+    display: block;
+  }
+  100% {
+    transform: rotate(30deg) translate(0px, 0px);
+    display: block;
+  }
+}
+
+@keyframes custom_animation_icon1 {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(0) scale(1);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(-15px) translateX(-15px) rotate(15deg) scale(0.95);
+    opacity: .9;
+  }
+  100% {
+    transform: translateY(-15px) translateX(-15px) rotate(0) scale(1);
+    opacity: .85;
+  }
+}
+
+@-webkit-keyframes circleAnimation {
+  0%,
+  100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    -webkit-transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  34% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    -webkit-transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -webkit-transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+  }
+}
+
+/**************** common css end ****************/
+/******** base color css ********/
+/* line 2, D:/February/education/education_HTML/scss/_button.scss */
+.btn_1 {
+  background-color: #F81271;
+  border: 2px solid #F81271;
+  color: #FCFCFC !important;
+  display: inline-block;
+  padding: 11px 23px;
+  text-transform: capitalize;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  white-space: nowrap;
+  -webkit-transition: 0.5s;
+  transition: all 0.5s ease-in-out;
+
+}
+
+/* line 15, D:/February/education/education_HTML/scss/_button.scss */
+.btn_1:hover {
+  box-shadow: none;
+  background-color: #F81271;
+  border: 2px solid #F81271;
+  color: #fff !important;
+  opacity:0.9;
+  transform: scale(1.1);
+}
+
+/* line 22, D:/February/education/education_HTML/scss/_button.scss */
+.btn_2 {
+  color: #fff;
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: 14px 39px;
+  text-transform: capitalize;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: transparent;
+  white-space: nowrap;
+  -webkit-transition: 0.5s;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 35, D:/February/education/education_HTML/scss/_button.scss */
+.btn_2:hover {
+  background-color: #F81271;
+  border: 2px solid #F81271;
+  color: #fff !important;
+  opacity:0.9;
+  transform: scale(1.1);
+}
+
+/* line 41, D:/February/education/education_HTML/scss/_button.scss */
+.btn_3 {
+  color: #F81271 !important;
+  border: 2px solid #F81271;
+  display: inline-block;
+  padding: 14px 39px;
+  text-transform: capitalize;
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: #fff;
+  white-space: nowrap;
+  -webkit-transition: 0.5s;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 54, D:/February/education/education_HTML/scss/_button.scss */
+.btn_3:hover {
+  box-shadow: 0px 20px 40px 0px rgba(68, 134, 254, 0.2);
+  opacity:0.9;
+  transform: scale(1.1);
+}
+
+/* line 58, D:/February/education/education_HTML/scss/_button.scss */
+.btn_4 {
+  display: inline-block;
+  border: 1px solid #dce1e9;
+  border-radius: 50px;
+  color: #626a77;
+  text-align: center;
+  padding: 9px 24px;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 69, D:/February/education/education_HTML/scss/_button.scss */
+.btn_4:hover {
+  background-color: #F81271;
+  border: 1px solid #F81271;
+  color: #fff !important;
+}
+
+/* line 75, D:/February/education/education_HTML/scss/_button.scss */
+.dropdown-toggle:hover {
+  background-color: #F81271 !important;
+  color: #fff !important;
+}
+
+/* line 79, D:/February/education/education_HTML/scss/_button.scss */
+.view_archive_btn {
+  border: 1px solid #dce1e9;
+  color: #626a77;
+  padding: 16px 30px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 16px;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 89, D:/February/education/education_HTML/scss/_button.scss */
+.view_archive_btn i {
+  margin-right: 15px;
+}
+
+/* line 92, D:/February/education/education_HTML/scss/_button.scss */
+.view_archive_btn:hover {
+  color: #F81271;
+  border: 1px solid #F81271;
+}
+
+/* line 97, D:/February/education/education_HTML/scss/_button.scss */
+.sm_btn {
+  padding: 9px 20px;
+  font-weight: 300;
+}
+
+/******** header css here *********/
+/* line 2, D:/February/education/education_HTML/scss/_header.scss */
+.header_part {
+  background-color: #fff;
+}
+
+/* line 2, D:/February/education/education_HTML/scss/_header.scss */
+/* @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .header_part {
+    text-align: center;
+  }
+} */
+
+@media (max-width: 991px) {
+  /* line 7, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .header_iner {
+    padding: 15px 0;
+  }
+}
+
+/* line 13, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .sidebar_icon i {
+  font-size: 36px;
+}
+
+/* line 19, D:/February/education/education_HTML/scss/_header.scss */
+/* @media (max-width: 576px) {
+  .header_part .logo img {
+    max-width: 80px;
+  }
+} */
+
+/* line 24, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .btn_1 {
+  padding: 13px 32px !important;
+}
+
+@media (max-width: 991px) {
+  /* line 24, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .btn_1 {
+    padding: 10px 15px !important;
+    font-size: 12px;
+  }
+}
+
+/* line 31, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .sub_header {
+  padding: 15px 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 31, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .sub_header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 31, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .sub_header {
+    font-size: 14px;
+  }
+}
+
+/* line 39, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .sub_header i {
+  color: #F81271;
+  margin-right: 14px;
+}
+
+/* line 43, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .sub_header a {
+  padding: 3px 30px;
+  display: inline-block;
+  border-left: 1px solid #dce1e9;
+  color: #FCFCFC;
+}
+
+/* line 48, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .sub_header a:hover {
+  color: #F81271;
+}
+
+@media (max-width: 767.98px) {
+  /* line 43, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .sub_header a {
+    display: block;
+    border-left: 0 solid transparent;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 43, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .sub_header a {
+    padding: 0 15px;
+  }
+}
+
+/* line 58, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .sub_header a:first-child {
+  padding: 0 30px 0 0;
+  border-left: 0 solid transparent;
+}
+
+@media (max-width: 767.98px) {
+  /* line 58, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .sub_header a:first-child {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 58, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .sub_header a:first-child {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 70, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .header_login_info {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 74, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .header_login_info a {
+    display: inline-block;
+  }
+}
+
+/* line 78, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .header_login_info a:first-child {
+  padding: 0 18px;
+}
+
+/* line 81, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .header_login_info a:last-child {
+  padding: 0 0 0 18px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 81, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .header_login_info a:last-child {
+    padding: 0 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 81, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .header_login_info a:last-child {
+    padding: 0 0 0 15px;
+  }
+}
+
+/* line 94, D:/February/education/education_HTML/scss/_header.scss */
+.header_part .header_login_info {
+  text-align: right;
+}
+
+@media (max-width: 767.98px) {
+  /* line 94, D:/February/education/education_HTML/scss/_header.scss */
+  .header_part .header_login_info {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #cbe0fb;
+    margin-top: 15px;
+  }
+}
+
+/******** header css end *********/
+/* line 2, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar {
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  /* line 2, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar {
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+    box-shadow: -1px 6px 7px rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    transform-origin: top center;
+    padding: 10px 0;
+  }
+  /* line 17, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar .close_icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 2, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar {
+    width: 510px;
+    left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 2, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar {
+    width: 690px;
+    left: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 2, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar {
+    padding-left: 0;
+  }
+}
+ul li {
+  list-style: none;
+}
+/* line 34, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  /* line 34, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar ul {
+    text-align: left;
+  }
+}
+
+/* line 41, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  /* line 41, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar ul li {
+    display: block;
+  }
+}
+
+/* line 48, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li a {
+  color: #FCFCFC;
+  text-transform: capitalize;
+  padding: 37px 22px;
+  display: inline-block;
+  line-height: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+@media (max-width: 991px) {
+  .navbar_bar ul li a{
+
+    color: #2A2E4D;
+  }
+}
+
+/* line 56, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li a:hover {
+  color: #F81271;
+}
+
+@media (max-width: 991px) {
+  /* line 48, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 48, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar ul li a {
+    padding: 32px 20px;
+    
+
+  }
+}
+
+/* line 68, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li ul {
+  position: absolute;
+  left: 0;
+  padding: 22px 0;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(7, 28, 55, 0.08);
+  min-width: 150px;
+  z-index: 99;
+  text-align: left;
+  border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+  /* line 68, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar ul li ul {
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+    top: 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* line 85, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li ul li {
+  display: block;
+}
+
+/* line 87, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li ul li a {
+  display: block;
+  color: #445363;
+  padding: 9px 41px;
+  font-size: 14px;
+}
+
+/* line 93, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li ul li > ul {
+  left: 100%;
+  top: 15px;
+}
+
+@media (max-width: 991px) {
+  /* line 93, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar ul li ul li > ul {
+    left: 0;
+    top: 0;
+  }
+}
+
+/* line 103, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li .dropdown_active {
+  opacity: 1;
+  visibility: visible;
+  top: 50px;
+}
+
+/* line 107, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li .dropdown_active li {
+  display: block;
+}
+
+/* line 109, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li .dropdown_active li a {
+  display: inline-block;
+}
+
+/* line 112, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar ul li .dropdown_active li ul {
+  left: 100%;
+  top: 20px;
+}
+
+@media (max-width: 991px) {
+  /* line 112, D:/February/education/education_HTML/scss/_navbar.scss */
+  .navbar_bar ul li .dropdown_active li ul {
+    left: 0;
+    top: 50px;
+  }
+}
+
+/* line 125, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar .left_arrow:after {
+  left: 31px;
+  top: 16px;
+  background-color: #fff;
+}
+
+/* line 130, D:/February/education/education_HTML/scss/_navbar.scss */
+.navbar_bar .left_arrow:hover {
+  padding-left: 50px;
+  color: #fff;
+}
+
+/* line 137, D:/February/education/education_HTML/scss/_navbar.scss */
+.active_menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 142, D:/February/education/education_HTML/scss/_navbar.scss */
+.mega_menu_dropdown > a {
+  width: 100%;
+  color: #445363;
+  position: relative;
+  font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  /* line 148, D:/February/education/education_HTML/scss/_navbar.scss */
+  .mega_menu_dropdown > a:after {
+    position: absolute;
+    content: "\33";
+    font-family: 'eleganticons';
+    right: 15px;
+    top: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 159, D:/February/education/education_HTML/scss/_navbar.scss */
+  .mega_menu_dropdown .mega_menu_icon:after {
+    content: "\32";
+  }
+}
+
+@media (min-width: 991px) {
+  /* line 166, D:/February/education/education_HTML/scss/_navbar.scss */
+  .mega_menu_dropdown > ul {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    top: 100px;
+  }
+  /* line 174, D:/February/education/education_HTML/scss/_navbar.scss */
+  .mega_menu_dropdown:hover > a {
+    color: #F81271 !important;
+  }
+  /* line 177, D:/February/education/education_HTML/scss/_navbar.scss */
+  .mega_menu_dropdown:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    top: 90px;
+  }
+  /* line 181, D:/February/education/education_HTML/scss/_navbar.scss */
+  .mega_menu_dropdown:hover > ul > a {
+    color: #fff;
+  }
+}
+
+/* line 188, D:/February/education/education_HTML/scss/_navbar.scss */
+.sticky_logo {
+  display: none;
+}
+
+/* line 191, D:/February/education/education_HTML/scss/_navbar.scss */
+.menu_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 6px 14px 0px rgba(7, 28, 55, 0.06);
+}
+
+/* line 199, D:/February/education/education_HTML/scss/_navbar.scss */
+.menu_fixed .main_logo {
+  display: none;
+}
+
+/* line 202, D:/February/education/education_HTML/scss/_navbar.scss */
+.menu_fixed .sticky_logo {
+  display: inline-block;
+}
+
+/* line 207, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .menu_fixed .navbar_bar ul li a {
+  color: #445363;
+}
+
+/* line 210, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .menu_fixed .mega_menu_dropdown > a {
+  background-color: transparent;
+  color: #445363;
+}
+
+/* line 214, D:/February/education/education_HTML/scss/_navbar.scss */
+.menu_fixed .mega_menu_dropdown > ul li a {
+  background-color: transparent;
+  color: #445363;
+}
+
+/* line 217, D:/February/education/education_HTML/scss/_navbar.scss */
+.menu_fixed .mega_menu_dropdown > ul li a:hover {
+  color: #F81271;
+}
+
+/* line 221, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .menu_fixed .icon_menu {
+  color: #445363;
+}
+
+@media (max-width: 991px) {
+  /* line 225, D:/February/education/education_HTML/scss/_navbar.scss */
+  .menu_fixed .navbar_bar {
+    background-color: #fff;
+  }
+}
+
+/* line 229, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  background-color: transparent;
+}
+
+/* line 237, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .navbar_bar ul li a {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  /* line 237, D:/February/education/education_HTML/scss/_navbar.scss */
+  .single_page_header .navbar_bar ul li a {
+    color: #0b1c39;
+  }
+}
+
+/* line 242, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .navbar_bar ul li a:hover {
+  color: #F81271;
+}
+
+/* line 246, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .mega_menu_dropdown > a {
+  background-color: transparent;
+  color: #fff;
+}
+
+/* line 250, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .mega_menu_dropdown > ul > li > a {
+  background-color: transparent;
+  color: #445363;
+}
+
+/* line 254, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .navbar_bar ul li ul li a:hover {
+  color: #F81271;
+}
+
+/* line 257, D:/February/education/education_HTML/scss/_navbar.scss */
+.single_page_header .mega_menu_dropdown:hover > a {
+  color: #F81271;
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.breadcrumb_part {
+  background-image: url("../img/breadcrumb_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 450px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 1, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .breadcrumb_part {
+    height: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 1, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .breadcrumb_part {
+    height: 350px;
+  }
+}
+
+/* line 13, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.breadcrumb_part:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #445363;
+  opacity: .5;
+  z-index: -1;
+}
+
+/* line 24, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.breadcrumb_part .breadcrumb_iner {
+  text-align: center;
+  margin-top: 106px;
+}
+
+@media (max-width: 991px) {
+  /* line 24, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .breadcrumb_part .breadcrumb_iner {
+    margin-top: 0;
+  }
+}
+
+/* line 31, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.breadcrumb_part h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 11px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 31, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .breadcrumb_part h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 31, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .breadcrumb_part h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 5px;
+  }
+}
+
+/* line 47, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.breadcrumb_part .breadcrumb_iner_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 51, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.breadcrumb_part .breadcrumb_iner_link a {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 55, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.breadcrumb_part .breadcrumb_iner_link i {
+  margin: 0 15px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 55, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .breadcrumb_part .breadcrumb_iner_link i {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 55, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .breadcrumb_part .breadcrumb_iner_link i {
+    margin: 0 8px;
+  }
+}
+
+/* line 67, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.blog_breadcrumb {
+  background-image: url(../img/breadcrumb_bg_1.png);
+  height: auto;
+  text-align: left;
+}
+
+/* line 71, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.blog_breadcrumb .breadcrumb_iner {
+  padding: 220px 0 120px;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  /* line 71, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .blog_breadcrumb .breadcrumb_iner {
+    padding: 120px 0 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 71, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .blog_breadcrumb .breadcrumb_iner {
+    padding: 120px 0 60px;
+  }
+}
+
+/* line 80, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.blog_breadcrumb .breadcrumb_iner span {
+  background-color: #F81271;
+  padding: 3px 22px;
+  text-transform: capitalize;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50px;
+  margin-bottom: 26px;
+}
+
+/* line 89, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.blog_breadcrumb .breadcrumb_iner h2 {
+  font-size: 60px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 991px) {
+  /* line 89, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .blog_breadcrumb .breadcrumb_iner h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 89, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .blog_breadcrumb .breadcrumb_iner h2 {
+    font-size: 35px;
+  }
+}
+
+/* line 101, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.blog_breadcrumb .breadcrumb_post_author {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 104, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.blog_breadcrumb .breadcrumb_post_author p {
+  color: #fff;
+  margin-right: 30px;
+}
+
+@media (max-width: 576px) {
+  /* line 104, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .blog_breadcrumb .breadcrumb_post_author p {
+    flex: 100% 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* line 104, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+  .blog_breadcrumb .breadcrumb_post_author p {
+    flex: 50% 0;
+  }
+}
+
+/* line 113, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.blog_breadcrumb .breadcrumb_post_author p i {
+  margin-right: 10px;
+}
+
+/* line 119, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.grid_bg {
+  background-image: url(../img/breadcrumb_bg/grid_breadcrumg.png);
+}
+
+/* line 122, D:/February/education/education_HTML/scss/_breadcrumb_part.scss */
+.blog_grid_bg {
+  background-image: url(../img/breadcrumb_bg/blog_breadcrumg.png);
+}
+
+/********* banner part css here ********/
+/* line 3, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .single_banner_part {
+  position: relative;
+  z-index: 2;
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  /* line 3, D:/February/education/education_HTML/scss/_banner_part.scss */
+  .banner_part .single_banner_part {
+    height: 500px;
+  }
+}
+
+/* line 12, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .single_banner_part:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0b1c39;
+  opacity: .5;
+  z-index: -1;
+}
+
+/* line 23, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .single_banner_part .banner_iner {
+  text-align: center;
+}
+
+/* line 25, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .single_banner_part .banner_iner h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media (max-width: 767.98px) {
+  /* line 25, D:/February/education/education_HTML/scss/_banner_part.scss */
+  .banner_part .single_banner_part .banner_iner h5 {
+    line-height: 28px;
+  }
+}
+
+/* line 35, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .single_banner_part .banner_iner h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 70px;
+  margin: 19px 0 36px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 35, D:/February/education/education_HTML/scss/_banner_part.scss */
+  .banner_part .single_banner_part .banner_iner h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+/* line 48, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .bg_1 {
+  background-image: url("../img/FullStackDeveloper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 51, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .bg_2 {
+  background-image: url("../img/FrontEndDeveloper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 54, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .bg_3 {
+  background-image: url("../img/UIUXDESIGNER.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 57, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .owl-nav button.owl-next, .banner_part .owl-nav button.owl-prev {
+  border: 2px solid #d4d7dc;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #d4d7dc;
+  background-color: transparent;
+  position: absolute;
+  left: 50px;
+  top: 47%;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 72, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .owl-nav button.owl-next:hover, .banner_part .owl-nav button.owl-prev:hover {
+  background-color: #F81271;
+  border: 2px solid #F81271;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 57, D:/February/education/education_HTML/scss/_banner_part.scss */
+  .banner_part .owl-nav button.owl-next, .banner_part .owl-nav button.owl-prev {
+    left: 20px;
+  }
+}
+
+/* line 81, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .owl-nav button.owl-next {
+  left: auto;
+  right: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 81, D:/February/education/education_HTML/scss/_banner_part.scss */
+  .banner_part .owl-nav button.owl-next {
+    right: 20px;
+  }
+}
+
+/* line 90, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .owl-item.active .banner_iner h5,
+.banner_part .owl-item.active .banner_iner h2,
+.banner_part .owl-item.active .banner_iner .btn_2 {
+  -webkit-animation: animmate_In_Left 1s ease 0s both;
+  animation: animmate_In_Left 1s ease 0s both;
+}
+
+/* line 97, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .owl-item.active .banner_iner h5 {
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+/* line 102, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .owl-item.active .banner_iner h2 {
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+/* line 107, D:/February/education/education_HTML/scss/_banner_part.scss */
+.banner_part .owl-item.active .banner_iner .btn_2 {
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
+}
+
+@-webkit-keyframes animmate_In_Left {
+  0% {
+    -webkit-transform: translateX(-150px);
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes animmate_In_Left {
+  0% {
+    -webkit-transform: translateX(-150px);
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+/********* banner part css end ********/
+/* line 1, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details {
+  overflow: hidden;
+  z-index: 9;
+  position: relative;
+}
+
+.course_details  p{
+  color: #2A2E4D;
+}
+
+@media (max-width: 767.98px) {
+  /* line 1, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details {
+    margin-top: 0;
+  }
+}
+
+/* line 9, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .single_course_list {
+  margin-top: 60px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 9, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .single_course_list {
+    margin-top: 30px;
+  }
+  /* line 13, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .single_course_list:first-child {
+    margin-top: 0;
+  }
+}
+
+/* line 17, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .single_course_list img {
+  max-width: 100px;
+}
+
+/* line 20, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .single_course_list h4 {
+  margin: 25px 0 13px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* line 27, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_details_iner {
+  margin-top: 73px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 32, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_details_iner .single_course_list {
+  flex: 40% 0 0;
+}
+
+@media (max-width: 576px) {
+  /* line 32, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_details_iner .single_course_list {
+    flex: 100% 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 32, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_details_iner .single_course_list {
+    flex: 48% 0 0;
+  }
+}
+
+/* line 42, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration_form {
+  background-color: #fff;
+  box-shadow: 0px 30px 60px 0px rgba(2, 25, 55, 0.08);
+  border-radius: 10px;
+  padding: 45px 40px 40px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 42, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_registration_form {
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 42, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_registration_form {
+    padding: 20px;
+  }
+}
+
+/* line 54, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration_form h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 33px;
+  line-height: 34px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 54, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_registration_form h3 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 54, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_registration_form h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+/* line 69, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration_form input, .course_details .course_registration_form .niceSelect {
+  border-radius: 50px;
+  display: block;
+  width: 100%;
+  background-color: #f0f3f7;
+  padding: 19px 25px;
+  color: #7c8189;
+  margin-bottom: 20px;
+  border: 2px solid #f0f3f7;
+  height: auto;
+  line-height: 18px;
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 82, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration_form input:focus, .course_details .course_registration_form .niceSelect:focus {
+  background-color: transparent;
+  border: 2px solid #cbe0fb;
+  color: #0b1c39;
+}
+
+/* line 87, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration_form input:after, .course_details .course_registration_form .niceSelect:after {
+  top: 24px;
+  right: 34px;
+  font-size: 24px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 69, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_registration_form input, .course_details .course_registration_form .niceSelect {
+    font-size: 14px;
+    padding: 9px 25px;
+  }
+  /* line 95, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_registration_form input:after, .course_details .course_registration_form .niceSelect:after {
+    right: 27px;
+    font-size: 24px;
+    top: 12px;
+  }
+}
+
+/* line 102, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration_form .btn_1 {
+  margin-top: 10px;
+  padding: 13px 36px;
+}
+
+/* line 107, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration {
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 107, D:/February/education/education_HTML/scss/_course_details.scss */
+  .course_details .course_registration {
+    margin-top: 35px;
+  }
+}
+
+/* line 114, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration .cources_details_bg {
+  position: absolute;
+  right: -60px;
+  bottom: -85px;
+  z-index: -1;
+}
+
+/* line 120, D:/February/education/education_HTML/scss/_course_details.scss */
+.course_details .course_registration .cources_details_icon {
+  position: absolute;
+  right: -73px;
+  bottom: 50px;
+  z-index: -1;
+}
+
+/* line 128, D:/February/education/education_HTML/scss/_course_details.scss */
+.countdown {
+  margin-top: 80px;
+  border-top: 1px solid #dce1e9;
+  padding-top: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767.98px) {
+  /* line 128, D:/February/education/education_HTML/scss/_course_details.scss */
+  .countdown {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 128, D:/February/education/education_HTML/scss/_course_details.scss */
+  .countdown {
+    margin-top: 30px;
+  }
+}
+
+/* line 140, D:/February/education/education_HTML/scss/_course_details.scss */
+.countdown .time {
+  font-size: 30px;
+  margin-right: 20px;
+  color: #F81271;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+/* line 146, D:/February/education/education_HTML/scss/_course_details.scss */
+.countdown .time:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 140, D:/February/education/education_HTML/scss/_course_details.scss */
+  .countdown .time {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 140, D:/February/education/education_HTML/scss/_course_details.scss */
+  .countdown .time {
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 12px;
+  }
+}
+
+/* line 159, D:/February/education/education_HTML/scss/_course_details.scss */
+.countdown .time span {
+  font-size: 16px;
+  color: #727881;
+  font-weight: 400;
+  display: block;
+  line-height: 20px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 159, D:/February/education/education_HTML/scss/_course_details.scss */
+  .countdown .time span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 159, D:/February/education/education_HTML/scss/_course_details.scss */
+  .countdown .time span {
+    line-height: 32px;
+    font-size: 13px;
+  }
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us {
+  position: relative;
+}
+
+/* line 3, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_us_img {
+  position: relative;
+}
+
+/* line 5, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_us_img img {
+  border-radius: 10px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 3, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_us_img {
+    margin-bottom: 35px;
+  }
+}
+
+/* line 12, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_icon {
+  position: absolute;
+  top: -41px;
+  z-index: 1;
+  left: 64px;
+}
+
+/* line 18, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_tricker {
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  background-color: #F81271;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+@media (max-width: 767.98px) {
+  /* line 18, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_tricker {
+    top: -50px;
+    left: -10px;
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 18, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_tricker {
+    top: -50px;
+    left: -10px;
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 18, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_tricker {
+    top: -50px;
+    left: -10px;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+/* line 51, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .tricker_iner p {
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 25px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 51, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .tricker_iner p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 51, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .tricker_iner p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 51, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .tricker_iner p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+/* line 68, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .tricker_iner span {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 43px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 68, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .tricker_iner span {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 68, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .tricker_iner span {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 68, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .tricker_iner span {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+/* line 89, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_us_details h2 {
+  font-size: 50px;
+  line-height: 64px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 767.98px) {
+  /* line 89, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_us_details h2 {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 89, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_us_details h2 {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 105, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_us_details h3 {
+  font-size: 24px;
+  color: #F81271;
+  margin-bottom: 35px;
+  font-weight: 300;
+}
+
+@media (max-width: 767.98px) {
+  /* line 105, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_us_details h3 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 105, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_us_details h3 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+/* line 120, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_us_details h3 span {
+  color: #0b1c39;
+  font-weight: 500;
+}
+
+/* line 125, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_us_details p {
+  margin-bottom: 36px;
+  line-height: 28px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 125, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_us_details p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 125, D:/February/education/education_HTML/scss/_about_us.scss */
+  .about_us .about_us_details p {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 135, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_us_details .btn_1 {
+  margin-top: 21px;
+  padding: 15px 44px;
+  box-shadow: 0px 20px 40px 0px rgba(68, 134, 254, 0.2);
+}
+
+/* line 139, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_us_details .btn_1:hover {
+  box-shadow: none;
+}
+
+/* line 144, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_sharp_1 {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+
+/* line 149, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_sharp_2 {
+  position: absolute;
+  bottom: 440px;
+  right: 75px;
+}
+
+/* line 154, D:/February/education/education_HTML/scss/_about_us.scss */
+.about_us .about_sharp_3 {
+  position: absolute;
+  bottom: 425px;
+  right: 125px;
+}
+
+/* line 160, D:/February/education/education_HTML/scss/_about_us.scss */
+.single_about_page {
+  padding: 180px 0 120px;
+}
+
+@media (max-width: 991px) {
+  /* line 160, D:/February/education/education_HTML/scss/_about_us.scss */
+  .single_about_page {
+    padding: 120px 0 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 160, D:/February/education/education_HTML/scss/_about_us.scss */
+  .single_about_page {
+    padding: 130px 0 100px;
+  }
+}
+
+/* line 5, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .single_courses_item {
+  border-radius: 6px;
+  margin: 0 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  box-shadow: 0px 3px 6px 0px rgba(2, 25, 55, 0.04);
+  
+}
+
+@media (max-width: 576px) {
+  /* line 5, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .popular_course .single_courses_item {
+    margin: 0;
+  }
+}
+
+/* line 13, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .single_courses_item:hover {
+  box-shadow: 0px 30px 50px 0px rgba(2, 25, 55, 0.08);
+}
+
+/* line 16, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .single_courses_item img {
+  border-radius: 10px 10px 0 0;
+  
+}
+
+.popular_course .single_courses_item .course_img{
+  width:100%;
+  height: 200px;
+}
+
+/* line 19, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .single_courses_item h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 18px 0 23px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #fcfcfc;
+  
+}
+
+/* line 28, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .single_courses_item:hover h4 {
+  color: #F81271;
+}
+
+/* line 33, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .courses_item_iner {
+  padding: 30px 35px 15px;
+  background-color: #fff;
+  border-radius: 0 0 6px 6px;
+}
+
+@media (max-width: 991px) {
+  /* line 33, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .popular_course .courses_item_iner {
+    padding: 20px 15px 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 33, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .popular_course .courses_item_iner {
+    padding: 25px 20px 22px;
+  }
+}
+
+/* line 46, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .popular_course_list {
+  justify-content: space-between;
+  margin-top: 18px;
+  border-top: 1px solid #dce1e9;
+  padding-top: 16px;
+}
+
+/* line 53, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .owl-carousel .owl-stage {
+  margin: 0 30px 65px 0px;
+}
+
+/* line 56, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 6px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 65, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course .owl-dots .owl-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #c0c9d7 !important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 5px;
+  transform: scale(1);
+}
+
+/* line 74, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course button.owl-dot.active {
+  background-color: #F81271 !important;
+  transform: scale(1.7);
+}
+
+/* line 79, D:/February/education/education_HTML/scss/_popular_course.scss */
+.course_author {
+  display: flex;
+  align-items: center;
+}
+
+/* line 82, D:/February/education/education_HTML/scss/_popular_course.scss */
+.course_author p {
+  padding-left: 10px;
+}
+
+/* line 87, D:/February/education/education_HTML/scss/_popular_course.scss */
+.course_author img {
+  max-width: 30px;
+  border-radius: 50% !important;
+}
+
+/* line 92, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_review {
+  display: flex;
+  align-items: center;
+}
+
+/* line 95, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_review .courses_btn {
+  font-size: 14px;
+  padding: 5px 10px;
+  line-height: 14px;
+  background-color: #F81271;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+/* line 104, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_review .review_icon {
+  margin-left: 30px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 104, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_review .review_icon {
+    margin-left: 8px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 104, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_review .review_icon {
+    margin-left: 9px;
+  }
+}
+
+/* line 112, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_review .review_icon i {
+  color: #ffbe21;
+  font-size: 12px;
+}
+
+/* line 117, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_review span {
+  color: #7a818d;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 117, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_review span {
+    font-size: 12px;
+  }
+}
+
+/* line 126, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course_list {
+  display: flex;
+}
+
+/* line 128, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course_list p {
+  color: #0b1c39;
+}
+
+/* line 130, D:/February/education/education_HTML/scss/_popular_course.scss */
+.popular_course_list p i {
+  color: #F81271;
+  margin-right: 8px;
+}
+
+/* line 137, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_list_style .single_courses_item {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  /* line 137, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item {
+    display: block;
+  }
+}
+
+/* line 143, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_list_style .single_courses_item:hover {
+  box-shadow: 0px 3px 6px 0px rgba(2, 25, 55, 0.04);
+}
+
+/* line 146, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_list_style .single_courses_item .courses_item_iner {
+  padding: 50px 50px 15px;
+}
+
+@media (max-width: 991px) {
+  /* line 146, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item .courses_item_iner {
+    padding: 20px 15px 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 146, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item .courses_item_iner {
+    padding: 30px 25px 15px;
+  }
+}
+
+/* line 155, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_list_style .single_courses_item img {
+  max-width: 372px;
+  width: auto !important;
+  border-radius: 5px 0 0 5px;
+}
+
+@media (max-width: 576px) {
+  /* line 155, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item img {
+    max-width: 100%;
+    width: 100% !important;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* line 155, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item img {
+    max-width: 215px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 155, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item img {
+    max-width: 300px;
+  }
+}
+
+/* line 171, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_list_style .single_courses_item h4 {
+  font-size: 30px;
+  line-height: 42px;
+  margin: 18px 0 28px;
+}
+
+@media (max-width: 991px) {
+  /* line 171, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item h4 {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px 0 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 171, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item h4 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+/* line 187, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_list_style .single_courses_item .course_author img {
+  max-width: 30px;
+  border-radius: 50%;
+}
+
+/* line 192, D:/February/education/education_HTML/scss/_popular_course.scss */
+.courses_list_style .single_courses_item .popular_course_list {
+  margin-top: 50px;
+  padding-top: 25px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* line 192, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item .popular_course_list {
+    margin-top: 25px;
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 192, D:/February/education/education_HTML/scss/_popular_course.scss */
+  .courses_list_style .single_courses_item .popular_course_list {
+    margin-top: 25px;
+    padding-top: 15px;
+  }
+}
+
+/* line 2, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .single_category_item {
+  width: 250px;
+  height: 270px;
+  display: block;
+  text-align: center;
+  padding: 50px 25px;
+  background-color: rgba(37, 114, 255, 0.08);
+  border-radius: 6px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.single_category_item p{
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+@media (max-width: 991px) {
+  /* line 2, D:/February/education/education_HTML/scss/_course_category.scss */
+  .course_category .single_category_item {
+    padding: 30px;
+  }
+}
+
+/* line 12, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .single_category_item:hover {
+  transform: translateY(-10px);
+}
+
+/* line 15, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .single_category_item img {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+/* line 21, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .single_category_item #icon {
+  fill: #ff2572 !important;
+  fill-rule: evenodd;
+}
+
+/* line 25, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .single_category_item h4 {
+  font-size: 45px;
+  margin-bottom: 2px;
+}
+
+/* line 30, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .single_category_item h4, .course_category .single_category_item p {
+  color: #F81271;
+}
+
+/* line 35, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .pink {
+  background-color: rgba(255, 37, 114, 0.08);
+}
+
+/* line 37, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .pink h4, .course_category .pink p {
+  color: #ff2572;
+}
+
+/* line 41, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .yellow {
+  background-color: rgba(250, 173, 25, 0.08);
+}
+
+/* line 43, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .yellow h4, .course_category .yellow p {
+  color: #faad19;
+}
+
+/* line 47, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .green {
+  background-color: rgba(19, 205, 59, 0.08);
+}
+
+/* line 49, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .green h4, .course_category .green p {
+  color: #13cd3b;
+}
+
+/* line 53, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .owl-carousel .owl-stage {
+  margin: 10px 0 57px;
+}
+@media (max-width: 500px){
+  .course_category .owl-carousel .owl-stage{
+   margin: 10px 0 57px 60px;
+  }
+}
+
+/* line 56, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 65, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category .owl-dots .owl-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #c0c9d7 !important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 5px;
+  transform: scale(1);
+}
+
+/* line 74, D:/February/education/education_HTML/scss/_course_category.scss */
+.course_category button.owl-dot.active {
+  background-color: #F81271 !important;
+  transform: scale(1.7);
+}
+
+/* line 3, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor_tittle h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 25px 0 9px;
+}
+
+@media (max-width: 991px) {
+  /* line 3, D:/February/education/education_HTML/scss/_instructor_list.scss */
+  .instructor_list .single_instructor_tittle h4 {
+    margin: 10px 0 9px;
+  }
+}
+
+/* line 10, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor_tittle h4 a {
+  color: #0b1c39;
+}
+
+/* line 12, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor_tittle h4 a:hover {
+  color: #F81271;
+}
+
+/* line 17, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor_tittle p {
+  line-height: 14px;
+}
+
+/* line 21, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor {
+  position: relative;
+}
+
+/* line 23, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor .social_icon {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 31, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor .social_icon i {
+  font-size: 14px;
+  color: #626a77;
+}
+
+/* line 35, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor .social_icon a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px 0;
+  border: 2px solid #fff;
+}
+
+/* line 45, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor .social_icon a:hover {
+  background-color: #F81271;
+  border: 2px solid #F81271;
+  box-shadow: none;
+}
+
+/* line 49, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor .social_icon a:hover i {
+  color: #fff;
+}
+
+/* line 57, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor .instructor_img {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+/* line 61, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor .instructor_img img {
+  border-radius: 6px;
+}
+
+@media (max-width: 991px) {
+  /* line 61, D:/February/education/education_HTML/scss/_instructor_list.scss */
+  .instructor_list .single_instructor .instructor_img img {
+    width: 100%;
+  }
+}
+
+/* line 68, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor .instructor_img:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0b1c39;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 6px;
+}
+
+/* line 82, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor:hover .social_icon {
+  transform: translateX(30px);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 88, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.instructor_list .single_instructor:hover .instructor_img:after {
+  opacity: .8;
+}
+
+@media (max-width: 991px) {
+  /* line 94, D:/February/education/education_HTML/scss/_instructor_list.scss */
+  .instructor_list .single_instructor_item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 102, D:/February/education/education_HTML/scss/_instructor_list.scss */
+  .instructor_list .col-lg-3:last-child .single_instructor_item {
+    margin-bottom: 0;
+  }
+}
+
+/* line 111, D:/February/education/education_HTML/scss/_instructor_list.scss */
+.event_page_instructor h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 42px;
+}
+
+@media (max-width: 991px) {
+  /* line 111, D:/February/education/education_HTML/scss/_instructor_list.scss */
+  .event_page_instructor h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation {
+  height: 720px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  /* line 1, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .motivation {
+    display: block;
+    height: auto;
+    padding: 70px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 1, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .motivation {
+    height: 600px;
+  }
+}
+
+/* line 14, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation h2 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 26px;
+  font-weight: 600;
+}
+
+@media (max-width: 767.98px) {
+  /* line 14, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .motivation h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 14, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .motivation h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 30, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation p {
+  margin-bottom: 33px;
+}
+
+/* line 34, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation .single_item {
+  width: 270px;
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  margin-top: 20px;
+  box-shadow: 0px 20px 40px 0px rgba(2, 25, 55, 0.06);
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 767.98px) {
+  /* line 34, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .motivation .single_item {
+    width: 100%;
+  }
+}
+
+/* line 47, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation .single_item i {
+  color: #626a77;
+  margin-right: 20px;
+}
+
+/* line 51, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation .single_item i, .motivation .single_item p {
+  margin-bottom: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 56, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation .single_item:hover i, .motivation .single_item:hover p {
+  color: #F81271;
+}
+
+/* line 61, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation .single_item.active i, .motivation .single_item.active p {
+  color: #F81271;
+}
+
+/* line 70, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation_video {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 79, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation_video span {
+  max-width: 16px;
+  color: #F81271;
+  text-shadow: 0px 10px 16px rgba(37, 114, 255, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 85, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation_video a {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media (max-width: 991px) {
+  /* line 85, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .motivation_video a {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
+}
+
+/* line 99, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation_video a:hover span {
+  color: #F81271;
+  text-shadow: none;
+}
+
+/* line 107, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation_video {
+  background-image: url("../img/motivation_video_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 110, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.bg_1 {
+  background-image: url("../img/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 113, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.bg_2 {
+  background-image: url("../img/course_thumb.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 118, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation_content .nav-tabs .nav-link {
+  border: 0 solid transparent;
+}
+
+/* line 121, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.motivation_content .nav-tabs {
+  border-bottom: 0 solid transparent;
+}
+
+@media (max-width: 576px) {
+  /* line 124, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .motivation_content .nav-item {
+    width: 100%;
+  }
+}
+
+/* line 131, D:/February/education/education_HTML/scss/_motivation_part.scss */
+.animated_play_button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-20%) translateY(-20%);
+  display: block;
+  width: 120px;
+  height: 120px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  animation: animated_border 1500ms ease-in-out infinite;
+}
+
+@media (max-width: 991px) {
+  /* line 131, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .animated_play_button:before {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 152, D:/February/education/education_HTML/scss/_motivation_part.scss */
+  .motivation_video {
+    position: relative;
+    left: 15px;
+    width: 90%;
+    margin-top: 30px;
+    height: 300px;
+  }
+}
+
+@keyframes animated_border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes animated_border_2 {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.2);
+    opacity: 0;
+  }
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list {
+  position: relative;
+}
+
+/* line 3, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .single_event_list {
+  display: flex;
+  align-items: center;
+  padding: 45px 50px;
+  box-shadow: 0px 30px 70px 0px rgba(2, 25, 55, 0.08);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 3, D:/February/education/education_HTML/scss/_event_list.scss */
+  .event_list .single_event_list {
+    display: block;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 15, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .single_event_list:last-child {
+  margin-bottom: 0;
+}
+
+/* line 18, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .single_event_list img {
+  border-radius: 50% 0 50% 50%;
+  margin-right: 50px;
+  max-width: 275px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 18, D:/February/education/education_HTML/scss/_event_list.scss */
+  .event_list .single_event_list img {
+    margin-right: 0;
+    max-width: 241px;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 18, D:/February/education/education_HTML/scss/_event_list.scss */
+  .event_list .single_event_list img {
+    max-width: 150px;
+  }
+}
+
+/* line 31, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .single_event_list h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #fdb70d;
+  font-weight: 400;
+}
+
+/* line 38, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .single_event_list h2 {
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 767.98px) {
+  /* line 38, D:/February/education/education_HTML/scss/_event_list.scss */
+  .event_list .single_event_list h2 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 38, D:/February/education/education_HTML/scss/_event_list.scss */
+  .event_list .single_event_list h2 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 55, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .single_event_list a {
+  color: #0b1c39;
+}
+
+/* line 58, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .single_event_list a h2:hover {
+  color: #F81271;
+}
+
+/* line 65, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .event_list_tag {
+  margin-bottom: 22px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 65, D:/February/education/education_HTML/scss/_event_list.scss */
+  .event_list .event_list_tag {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 70, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .event_list_tag i {
+  color: #F81271;
+  margin-right: 10px;
+}
+
+/* line 74, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .event_list_tag a {
+  margin-right: 42px;
+}
+
+/* line 77, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .event_list_tag p {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+/* line 80, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .event_list_tag p:last-child {
+  margin-right: 0;
+}
+
+/* line 85, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .event_list_btn {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 89, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .btn_3 {
+  margin-top: 22px;
+}
+
+/* line 92, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .about_sharp_3 {
+  position: absolute;
+  left: 10%;
+  top: 28%;
+}
+
+/* line 97, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .about_sharp_2 {
+  position: absolute;
+  left: 17%;
+  bottom: 39%;
+}
+
+/* line 102, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .about_sharp_1 {
+  position: absolute;
+  right: 6%;
+  top: 28%;
+}
+
+/* line 107, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .about_sharp_4 {
+  position: absolute;
+  right: 17%;
+  bottom: 45%;
+}
+
+/* line 112, D:/February/education/education_HTML/scss/_event_list.scss */
+.event_list .about_sharp_5 {
+  position: absolute;
+  right: 11%;
+  bottom: 23%;
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review {
+  background-color: #876CE9;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* line 6, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .review_overlay_1 {
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* line 12, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .review_overlay_2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* line 18, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .student_review_tittle {
+  position: relative;
+}
+
+/* line 20, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .student_review_tittle h2 {
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 98px;
+  font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+  /* line 20, D:/February/education/education_HTML/scss/_student_review.scss */
+  .student_review .student_review_tittle h2 {
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 20, D:/February/education/education_HTML/scss/_student_review.scss */
+  .student_review .student_review_tittle h2 {
+    font-size: 32px;
+    line-height: 47px;
+  }
+}
+
+/* line 35, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .student_review_tittle img {
+  position: absolute;
+  right: 0;
+  bottom: -17px;
+}
+
+/* line 41, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review h2, .student_review p, .student_review h4 {
+  color: #fff;
+}
+
+/* line 44, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #e3ecfb;
+}
+
+@media (max-width: 991px) {
+  /* line 44, D:/February/education/education_HTML/scss/_student_review.scss */
+  .student_review p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+/* line 54, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .student_review_content {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+  /* line 54, D:/February/education/education_HTML/scss/_student_review.scss */
+  .student_review .student_review_content {
+    margin-top: 20px;
+  }
+}
+
+/* line 61, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .student_review_content img {
+  max-width: 70px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+/* line 66, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .student_review_content p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* line 70, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .student_review_content h4 {
+  font-size: 20px;
+  line-height: 16px;
+  margin-bottom: 4px;
+}
+
+/* line 76, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .owl-nav {
+  position: absolute;
+  left: -105%;
+  bottom: 20px;
+  z-index: 99;
+}
+
+@media (max-width: 767.98px) {
+  /* line 76, D:/February/education/education_HTML/scss/_student_review.scss */
+  .student_review .owl-nav {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 76, D:/February/education/education_HTML/scss/_student_review.scss */
+  .student_review .owl-nav {
+    position: absolute;
+    left: -54%;
+    bottom: 20px;
+  }
+}
+
+/* line 93, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .owl-nav button.owl-next, .student_review .owl-nav button.owl-prev {
+  border: 2px solid #d4d7dc;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #d4d7dc;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 105, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .owl-nav button.owl-next:hover, .student_review .owl-nav button.owl-prev:hover {
+  background-color: #fff;
+  color: #F81271;
+  border: 2px solid #fff;
+}
+
+/* line 111, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .owl-next {
+  margin-left: 10px;
+}
+
+/* line 114, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .circle_shape_1 {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0.08;
+  position: absolute;
+  left: 258px;
+  bottom: -200px;
+  width: 330px;
+  height: 330px;
+  -webkit-animation: circleAnimation 5s linear infinite;
+  animation: circleAnimation 5s linear infinite;
+  z-index: -1;
+}
+
+/* line 127, D:/February/education/education_HTML/scss/_student_review.scss */
+.student_review .circle_shape_2 {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0.1;
+  position: absolute;
+  left: -100px;
+  bottom: -120px;
+  width: 510px;
+  height: 510px;
+  -webkit-animation: circleAnimation 7s linear infinite;
+  animation: circleAnimation 7s linear infinite;
+  z-index: -1;
+}
+
+/* line 2, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.course_single_page .single_courses_item {
+  margin: 40px 0 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 2, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .course_single_page .single_courses_item {
+    margin: 15px 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 2, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .course_single_page .single_courses_item {
+    margin: 15px 0 0;
+  }
+}
+
+/* line 12, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.single_courses_filter {
+  flex: 24% 0 0;
+  border-right: 1px solid #e4e8ef;
+}
+
+@media (max-width: 576px) {
+  /* line 12, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .single_courses_filter {
+    flex: 100% 0 0;
+    border-right: 0 solid transparent;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  /* line 12, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .single_courses_filter {
+    flex: 50% 0 0;
+    border-right: 1 solid #e4e8ef;
+  }
+}
+
+/* line 23, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.single_courses_filter:last-child {
+  border-right: 0px solid transparent;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  /* line 27, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .single_courses_filter:nth-child(n+2) {
+    border-right: 0 solid transparent;
+  }
+}
+
+/* line 32, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.single_courses_filter input {
+  padding: 14px 15px;
+  border: 0px solid transparent;
+  line-height: 22px;
+  color: #8b9098;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  /* line 32, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .single_courses_filter input {
+    padding: 14px 20px;
+  }
+}
+
+/* line 41, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.single_courses_filter .niceSelect {
+  border: 0px solid transparent;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  color: #8b9098;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  /* line 41, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .single_courses_filter .niceSelect {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  /* line 41, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .single_courses_filter .niceSelect {
+    margin: 10px 0;
+  }
+}
+
+/* line 54, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.single_courses_filter .niceSelect:after {
+  top: 3px;
+  right: 28px;
+  font-size: 24px;
+  color: #8b9098;
+}
+
+/* line 62, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.courses_filter_part {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  justify-content: center;
+  box-shadow: 0px 30px 70px 0px rgba(2, 25, 55, 0.08);
+  padding: 15px 15px;
+  margin-bottom: 20px;
+}
+
+/* line 70, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.courses_filter_part .btn_1 {
+  float: right;
+  padding: 15px 45px;
+}
+
+/* line 73, D:/February/education/education_HTML/scss/_course_single_page.scss */
+.courses_filter_part .btn_1:hover {
+  background-color: #ed0767;
+  border: 2px solid #ed0767;
+  color: #fff !important;
+}
+
+@media (max-width: 576px) {
+  /* line 70, D:/February/education/education_HTML/scss/_course_single_page.scss */
+  .courses_filter_part .btn_1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_cta_part.scss */
+.cta_part {
+  background-color: #F81271;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* line 7, D:/February/education/education_HTML/scss/_cta_part.scss */
+.cta_part .cta_part_iner h2 {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  /* line 7, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_part_iner h2 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  /* line 15, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_part_iner h2 br {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 7, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_part_iner h2 {
+    font-size: 35px;
+    line-height: 43px;
+  }
+  /* line 22, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_part_iner h2 br {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 27, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_part_iner h2 br {
+    display: none;
+  }
+}
+
+/* line 32, D:/February/education/education_HTML/scss/_cta_part.scss */
+.cta_part .cta_part_iner p {
+  font-size: 24px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  /* line 32, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_part_iner p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 32, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_part_iner p {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+}
+
+/* line 46, D:/February/education/education_HTML/scss/_cta_part.scss */
+.cta_part .cta_btn {
+  float: right;
+}
+
+@media (max-width: 767.98px) {
+  /* line 46, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_btn {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 46, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_btn {
+    float: left;
+  }
+}
+
+/* line 54, D:/February/education/education_HTML/scss/_cta_part.scss */
+.cta_part .cta_btn .btn_3 {
+  box-shadow: 0px 20px 40px 0px rgba(2, 25, 55, 0.2);
+  padding: 19px 42px;
+  border: 2px solid #fff;
+}
+
+/* line 58, D:/February/education/education_HTML/scss/_cta_part.scss */
+.cta_part .cta_btn .btn_3:hover {
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+
+@media (max-width: 767.98px) {
+  /* line 54, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_btn .btn_3 {
+    padding: 14px 35px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 54, D:/February/education/education_HTML/scss/_cta_part.scss */
+  .cta_part .cta_btn .btn_3 {
+    padding: 14px 35px;
+    margin-top: 15px;
+  }
+}
+
+/* line 72, D:/February/education/education_HTML/scss/_cta_part.scss */
+.cta_part .circle_shape_1 {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0.08;
+  position: absolute;
+  right: 260px;
+  bottom: -200px;
+  width: 325px;
+  height: 325px;
+  -webkit-animation: circleAnimation 5s linear infinite;
+  animation: circleAnimation 5s linear infinite;
+  z-index: -1;
+}
+
+/* line 85, D:/February/education/education_HTML/scss/_cta_part.scss */
+.cta_part .circle_shape_2 {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0.1;
+  position: absolute;
+  right: -100px;
+  bottom: -120px;
+  width: 474px;
+  height: 425px;
+  -webkit-animation: circleAnimation 7s linear infinite;
+  animation: circleAnimation 7s linear infinite;
+  z-index: -1;
+}
+
+/* line 2, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.grid_course_single_page .single_courses_item {
+  margin: 40px 0 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 2, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .grid_course_single_page .single_courses_item {
+    margin: 15px 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 2, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .grid_course_single_page .single_courses_item {
+    margin: 15px 0 0;
+  }
+}
+
+/* line 10, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.grid_course_single_page .single_courses_item img {
+  width: 100%;
+}
+
+/* line 15, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.grid_courses_filter_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+/* line 22, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.grid_courses_filter_part .single_courses_filter {
+  border: 0px solid transparent;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  /* line 22, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .grid_courses_filter_part .single_courses_filter {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  /* line 22, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .grid_courses_filter_part .single_courses_filter {
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 22, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .grid_courses_filter_part .single_courses_filter {
+    margin: 10px 0;
+  }
+}
+
+/* line 34, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.grid_courses_filter_part .single_courses_filter i {
+  color: #F81271;
+  float: left;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* line 40, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.grid_courses_filter_part .single_courses_filter p {
+  line-height: 17px;
+}
+
+/* line 43, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.grid_courses_filter_part .single_courses_filter .icon_search {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  margin-right: 0;
+  font-size: 20px;
+  color: #8b9098;
+}
+
+/* line 51, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.grid_courses_filter_part .single_courses_filter input {
+  color: #a3a8b0;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  /* line 57, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .education_sidebar {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 57, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .education_sidebar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+/* line 67, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.education_sidebar .single_sidebar {
+  padding: 40px 35px 18px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px 0px rgba(2, 25, 55, 0.04);
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 67, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .education_sidebar .single_sidebar {
+    flex: 47% 0 0;
+  }
+}
+
+/* line 76, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.education_sidebar .single_sidebar h4 {
+  font-size: 18px;
+  line-height: 20px;
+  position: relative;
+  margin-bottom: 47px;
+}
+
+/* line 81, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.education_sidebar .single_sidebar h4:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -18px;
+  width: 50px;
+  height: 2px;
+  background-color: #F81271;
+}
+
+/* line 91, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.education_sidebar .single_sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 94, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.education_sidebar .single_sidebar ul li {
+  list-style: none;
+  margin: 16px 0;
+  font-size: 15px;
+}
+
+/* line 104, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar {
+  margin-bottom: 60px;
+  position: relative;
+}
+
+/* line 107, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e7e9f2;
+}
+
+/* line 114, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar h3 a {
+  color: #445363;
+}
+
+/* line 116, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar h3 a:hover {
+  color: #F81271;
+}
+
+/* line 121, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar:last-child {
+  margin-bottom: 0;
+}
+
+/* line 124, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .search_form {
+  display: flex;
+}
+
+/* line 126, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .search_form input {
+  padding: 20px 30px;
+  background-color: #f6f7fa;
+  border-radius: 6px;
+  border: 1px solid #f6f7fa;
+  width: 100%;
+}
+
+/* line 133, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .search_form i {
+  position: absolute;
+  right: 30px;
+  top: 23px;
+  color: #F81271;
+}
+
+/* line 140, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .single_sidebar_post {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+/* line 143, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .single_sidebar_post:last-child {
+  margin-bottom: 0;
+}
+
+/* line 146, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .single_sidebar_post img {
+  max-width: 90px;
+  max-height: 80px;
+  border-radius: 6px;
+}
+
+@media (max-width: 991px) {
+  /* line 146, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .blog_sidebar .single_sidebar .single_sidebar_post img {
+    max-height: 80px;
+  }
+}
+
+/* line 154, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .single_sidebar_post .sidebar_post_content {
+  padding-left: 20px;
+}
+
+/* line 156, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .single_sidebar_post .sidebar_post_content h4 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* line 159, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .single_sidebar_post .sidebar_post_content h4 a {
+  color: #445363;
+}
+
+/* line 161, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .single_sidebar_post .sidebar_post_content h4 a:hover {
+  color: #F81271;
+}
+
+/* line 169, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .category_list p {
+  margin-bottom: 24px;
+  line-height: 13px;
+}
+
+/* line 172, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .category_list p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 175, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .category_list p a {
+  color: #626a77;
+}
+
+/* line 177, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .category_list p a:hover {
+  color: #F81271;
+}
+
+/* line 184, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.blog_sidebar .single_sidebar .sidebar_tag_list .btn_4 {
+  margin: 0 7px 10px 0;
+}
+
+/* line 192, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.single_review_part.blog_page_single_item p {
+  margin-bottom: 15px;
+}
+
+/* line 195, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.single_review_part.blog_page_single_item span {
+  color: #6b6b7a !important;
+}
+
+/* line 201, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_left_filter {
+  display: flex;
+  flex: 46% 0 0;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767.98px) {
+  /* line 201, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_left_filter {
+    flex: 100% 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 201, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_left_filter {
+    flex: 70% 0 0;
+  }
+}
+
+/* line 211, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_left_filter .single_courses_filter {
+  flex: 50% 0 0;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767.98px) {
+  /* line 211, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_left_filter .single_courses_filter {
+    flex: 100% 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 211, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_left_filter .single_courses_filter {
+    flex: 100% 0 0;
+  }
+}
+
+/* line 222, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter {
+  display: flex;
+  flex: 50% 0 0;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767.98px) {
+  /* line 222, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_right_filter {
+    flex: 100% 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 222, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_right_filter {
+    flex: 100% 0 0;
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+}
+
+/* line 235, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .single_courses_filter {
+  flex: 50% 0 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 235, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_right_filter .single_courses_filter {
+    flex: 100% 0 0;
+  }
+}
+
+/* line 241, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .single_filter {
+  margin-right: 30px;
+  width: 150px;
+  box-shadow: 0px 30px 70px 0px rgba(2, 25, 55, 0.08);
+}
+
+@media (max-width: 767.98px) {
+  /* line 241, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_right_filter .single_filter {
+    margin-right: 0;
+    margin: 15px 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 241, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_right_filter .single_filter {
+    margin-right: 0;
+    margin: 0 0 15px;
+  }
+}
+
+/* line 254, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .single_filter .niceSelect {
+  border: 0px solid transparent;
+  height: 60px;
+  font-size: 16px;
+  line-height: 60px;
+  color: #626a77;
+  font-weight: 400;
+  width: 100%;
+  display: block;
+}
+
+/* line 263, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .single_filter .niceSelect:after {
+  top: 4px;
+}
+
+/* line 266, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .single_filter .niceSelect .list {
+  padding: 10px 0;
+}
+
+/* line 272, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .courses_filter_search {
+  position: relative;
+  max-width: 240px;
+  box-shadow: 0px 30px 70px 0px rgba(2, 25, 55, 0.08);
+}
+
+@media (max-width: 767.98px) {
+  /* line 272, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+  .courses_filter_right_filter .courses_filter_search {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* line 280, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .courses_filter_search input {
+  padding: 19px 30px;
+  border: 0px solid transparent;
+  line-height: 22px;
+  color: #a3a8b0;
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* line 288, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .courses_filter_search ::placeholder {
+  color: #a3a8b0;
+}
+
+/* line 291, D:/February/education/education_HTML/scss/_grid_courses_filter_part.scss */
+.courses_filter_right_filter .courses_filter_search .icon_search {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  margin-right: 0;
+  font-size: 20px;
+  color: #8b9098;
+  transform: rotate(270deg);
+}
+
+/* line 3, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_style {
+  background-color: #fbfcfd;
+}
+
+/* line 8, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_iner .course_author img {
+  max-width: 40px;
+}
+
+/* line 11, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_iner .course_author h5 {
+  font-size: 16px;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+/* line 16, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_iner .course_author span {
+  margin: 0 15px;
+}
+
+/* line 19, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_iner .course_author p {
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  /* line 23, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .courses_details_iner .course_author span {
+    display: none;
+  }
+  /* line 26, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .courses_details_iner .course_author img {
+    max-width: 30px;
+  }
+  /* line 29, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .courses_details_iner .course_author p {
+    font-size: 13px;
+    margin-left: 15px;
+  }
+  /* line 33, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .courses_details_iner .course_author h5 {
+    font-size: 13px;
+    padding-left: 5px;
+  }
+}
+
+/* line 39, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_iner h2 {
+  font-size: 30px;
+  margin: 6px 0 22px;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  /* line 39, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .courses_details_iner h2 {
+    font-size: 25px;
+    line-height: 33px;
+  }
+}
+
+/* line 48, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_iner .couses_overview {
+  margin-bottom: 50px;
+}
+
+/* line 53, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_iner .popular_course_list p {
+  padding-left: 25px;
+}
+
+/* line 55, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.courses_details_iner .popular_course_list p i {
+  margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+  /* line 60, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .courses_details_iner .popular_course_list p {
+    padding-left: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+}
+
+/* line 70, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription ul {
+  padding: 0;
+  margin: 24px 0 0;
+}
+
+/* line 73, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription ul li {
+  list-style: none;
+  color: #626a77;
+  margin: 10px 0;
+}
+
+@media (max-width: 576px) {
+  /* line 73, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .course_details_decription ul li {
+    margin: 5px 0;
+  }
+}
+
+/* line 80, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription ul li i, .course_details_tab .course_details_decription ul li span {
+  color: #F81271;
+  margin-right: 15px;
+}
+
+/* line 87, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription .colum_2 li {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 576px) {
+  /* line 87, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .course_details_decription .colum_2 li {
+    width: 100%;
+  }
+}
+
+/* line 96, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 45px 0 17px;
+}
+
+/* line 101, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab p {
+  margin-bottom: 25px;
+}
+
+/* line 104, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .nav-tabs {
+  border-bottom: 0px solid transparent;
+  background-color: #eff2f8;
+}
+
+/* line 108, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_tab {
+  margin-top: 30px;
+}
+
+/* line 110, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_tab .nav-link {
+  line-height: 16px;
+  border: 0 solid transparent;
+  color: #0b1c39;
+  padding: 19px 36px;
+  border-top: 4px solid #eff2f8;
+  border-radius: 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 110, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .course_details_tab .nav-link {
+    padding: 19px 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 110, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .course_details_tab .nav-link {
+    padding: 19px 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 110, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .course_details_tab .nav-link {
+    padding: 19px 20px;
+  }
+}
+
+/* line 127, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_tab .nav-link i {
+  font-size: 16px;
+  color: #F81271;
+  margin-right: 5px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 135, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .course_details_tab .nav-item {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+}
+
+/* line 141, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_tab .active {
+  border-top: 4px solid #F81271;
+}
+
+/* line 146, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription .course_author {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* line 149, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription .course_author img {
+  max-width: 60px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: #b7cffb;
+  box-shadow: 0px 20px 40px 0px rgba(2, 25, 55, 0.08);
+}
+
+/* line 158, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription .course_author h5 {
+  margin-left: 25px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+/* line 164, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription .course_chapter {
+  border-bottom: 1px solid #dce1e9;
+  padding-bottom: 23px;
+}
+
+/* line 167, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .course_details_decription .course_chapter:last-child {
+  border-bottom: 0px solid transparent;
+  padding-bottom: 0;
+}
+
+/* line 173, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .single_review_part {
+  padding: 32px 40px;
+  background-color: #f6f7fa;
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  /* line 173, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .single_review_part {
+    padding: 20px 30px;
+  }
+}
+
+/* line 180, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .single_review_part h3 {
+  margin: 0 0 23px;
+}
+
+/* line 183, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .single_review_part .single_progress_bar {
+  display: flex;
+  align-items: center;
+  line-height: 38px;
+}
+
+/* line 187, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .single_review_part .single_progress_bar .progress {
+  margin: 0 25px 0 34px;
+  height: 8px;
+  border-radius: 50px;
+  width: 100%;
+}
+
+/* line 193, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .single_review_part .single_progress_bar p {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 0;
+  white-space: nowrap;
+  flex: 60px 0 0;
+}
+
+/* line 200, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .single_review_part .single_progress_bar span {
+  flex: 30px 0 0;
+}
+
+/* line 205, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .progress_bar {
+  flex: 64% 0 0;
+  padding-right: 30px;
+}
+
+@media (max-width: 576px) {
+  /* line 205, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .progress_bar {
+    flex: 100% 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 205, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .progress_bar {
+    flex: 60% 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 205, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .progress_bar {
+    flex: 60% 0 0;
+  }
+}
+
+/* line 219, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .caouse_rating {
+  background-color: #fff;
+  padding: 46px 30px;
+  flex: 26% 0 0;
+  align-self: center;
+  text-align: center;
+  height: 210px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px 0px rgba(2, 25, 55, 0.04);
+}
+
+@media (max-width: 576px) {
+  /* line 219, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .caouse_rating {
+    flex: 100% 0 0;
+    padding: 30px 25px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 219, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .caouse_rating {
+    flex: 35% 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 219, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .course_details_tab .caouse_rating {
+    flex: 35% 0 0;
+  }
+}
+
+/* line 239, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .caouse_rating p {
+  margin-bottom: 0;
+  color: #0b1c39;
+}
+
+/* line 243, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .caouse_rating h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+/* line 249, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .review_icon {
+  margin: 9px 0 6px;
+}
+
+/* line 251, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .review_icon i {
+  color: #ffbe21;
+}
+
+/* line 255, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .student_feedback {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 260, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .load_comment {
+  text-align: center;
+  border-top: 1px solid #e7e9f2;
+  margin-top: 40px;
+  padding-top: 24px;
+}
+
+/* line 265, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.course_details_tab .load_comment i {
+  margin-left: 5px;
+}
+
+/* line 271, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part h3 {
+  margin: 0 0 36px;
+}
+
+/* line 274, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part p {
+  margin-bottom: 30px;
+}
+
+/* line 277, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .admin_tittle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* line 281, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .admin_tittle h5 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* line 284, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .admin_tittle h5 span {
+  display: block;
+  color: #9ba1ba;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
+/* line 291, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .admin_tittle .review_icon {
+  margin: 0;
+}
+
+/* line 293, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .admin_tittle .review_icon i {
+  font-size: 12px;
+}
+
+/* line 298, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .replay_btn {
+  font-size: 14px;
+  color: #626a77;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #e9edf7;
+  text-align: center;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+/* line 310, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .replay_btn:hover {
+  background-color: #F81271;
+  color: #fff;
+}
+
+/* line 315, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .like_btn {
+  color: #F81271;
+  font-size: 16px;
+}
+
+/* line 318, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .like_btn i {
+  color: #626a77;
+  margin-right: 12px;
+}
+
+/* line 323, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .media {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0 solid transparent;
+}
+
+/* line 328, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .media img {
+  margin-right: 30px;
+  border-radius: 50%;
+  max-width: 60px;
+}
+
+@media (max-width: 576px) {
+  /* line 328, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .comment_part .media img {
+    margin-right: 10px;
+  }
+}
+
+/* line 336, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .media .media {
+  padding: 30px 0 0;
+  border-top: 1px solid #e7e9f2;
+  margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+  /* line 336, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .comment_part .media .media {
+    display: block !important;
+  }
+}
+
+/* line 343, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.comment_part .media .media img {
+  max-width: 50px;
+}
+
+@media (max-width: 576px) {
+  /* line 343, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .comment_part .media .media img {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 352, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form, .form_style {
+  margin-top: 45px;
+}
+
+/* line 354, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form h3, .form_style h3 {
+  font-size: 20px;
+  margin: 0 0 6px;
+}
+
+/* line 358, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .admin_tittle, .form_style .admin_tittle {
+  margin-top: 33px;
+  display: flex;
+}
+
+/* line 361, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .admin_tittle p, .form_style .admin_tittle p {
+  margin-bottom: 0;
+}
+
+/* line 364, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .admin_tittle .review_icon, .form_style .admin_tittle .review_icon {
+  margin: 0 0 0 30px;
+}
+
+/* line 366, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .admin_tittle .review_icon i, .form_style .admin_tittle .review_icon i {
+  font-size: 14px;
+}
+
+/* line 371, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .form_single_item, .form_style .form_single_item {
+  margin-top: 20px;
+}
+
+/* line 374, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .form_single_item input, .review_form .form_single_item textarea, .form_style .form_single_item input, .form_style .form_single_item textarea {
+  background-color: #f6f7fa;
+  padding: 17px 30px;
+  border-radius: 30px;
+  border: 1px solid #f6f7fa;
+  width: 100%;
+  font-size: 16px;
+  color: #626a77;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+
+/* line 384, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .form_single_item input:focus, .review_form .form_single_item textarea:focus, .form_style .form_single_item input:focus, .form_style .form_single_item textarea:focus {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #626a77;
+  box-shadow: 0px 20px 20px 0px rgba(2, 25, 55, 0.06);
+}
+
+/* line 391, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .form_single_item textarea, .form_style .form_single_item textarea {
+  height: 200px;
+}
+
+/* line 395, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.review_form .btn_1, .form_style .btn_1 {
+  padding: 15px 39px;
+  margin-top: 23px;
+}
+
+/* line 401, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.add_cart_sidebar {
+  padding: 40px 19px 37px 30px !important;
+}
+
+/* line 403, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.add_cart_sidebar h2 {
+  font-size: 30px;
+  color: #F81271;
+}
+
+/* line 406, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.add_cart_sidebar h2 span {
+  font-size: 52%;
+  color: #626a77;
+  margin-left: 19px;
+  text-decoration: line-through;
+}
+
+/* line 413, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.add_cart_sidebar .btn_1 {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* line 418, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.add_cart_sidebar h3 {
+  font-size: 18px;
+  margin: 37px 0 24px;
+}
+
+/* line 422, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.add_cart_sidebar p {
+  position: relative;
+  padding-left: 32px;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 12px 0;
+}
+
+/* line 428, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.add_cart_sidebar p:last-child {
+  margin: 12px 0 0;
+}
+
+/* line 431, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.add_cart_sidebar p i {
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+  top: 2px;
+  color: #a8aeb6;
+}
+
+/* line 441, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.single_sidebar .single_courses_category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+/* line 446, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.single_sidebar .single_courses_category:last-child {
+  margin-bottom: 0;
+}
+
+/* line 450, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.single_sidebar .gmap3 {
+  width: 100%;
+  height: 152px;
+  border: 1px solid #ccd6e8;
+  border-radius: 5px;
+  margin-bottom: 26px;
+}
+
+/* line 457, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.single_sidebar .gm-fullscreen-control {
+  display: none;
+}
+
+/* line 462, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.blog_page_single_item h3 {
+  font-size: 20px;
+  position: relative;
+  margin: 0 0 46px !important;
+}
+
+@media (max-width: 991px) {
+  /* line 462, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+  .blog_page_single_item h3 {
+    margin: 0 0 35px !important;
+  }
+}
+
+/* line 469, D:/February/education/education_HTML/scss/_courses_details_style.scss */
+.blog_page_single_item h3:after {
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  width: 70px;
+  height: 1px;
+  background-color: #F81271;
+  content: "";
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.eventcountdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #F81271;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/* line 8, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.eventcountdown .time {
+  flex: 25% 0 0;
+  font-size: 30px;
+  color: #fff;
+  padding: 19px;
+  font-weight: 600;
+  padding-left: 10%;
+  border-right: 1px solid #3b80ff;
+  line-height: 26px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 8, D:/February/education/education_HTML/scss/_event_details_style.scss */
+  .eventcountdown .time {
+    flex: 50% 0 0;
+  }
+}
+
+/* line 20, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.eventcountdown .time:last-child {
+  border-right: 0px solid transparent;
+}
+
+/* line 23, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.eventcountdown .time span {
+  font-size: 16px;
+  display: block !important;
+  font-weight: 400;
+}
+
+/* line 30, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.upcoming_event_desc {
+  margin-top: 44px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 30, D:/February/education/education_HTML/scss/_event_details_style.scss */
+  .upcoming_event_desc {
+    margin-top: 20px;
+  }
+}
+
+/* line 35, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.upcoming_event_desc h2 {
+  font-size: 26px;
+  margin-top: 15px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 35, D:/February/education/education_HTML/scss/_event_details_style.scss */
+  .upcoming_event_desc h2 {
+    margin-top: 20px;
+    line-height: 35px;
+  }
+}
+
+/* line 43, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.upcoming_event_desc p {
+  margin: 12px 0;
+}
+
+/* line 45, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.upcoming_event_desc p i {
+  color: #F81271;
+  margin-right: 15px;
+}
+
+/* line 51, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.upcoming_event_desc .event_desc_list h4 {
+  font-size: 18px;
+  margin: 38px 0 30px;
+}
+
+/* line 59, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.upcoming_event_details .instructor_list h3 {
+  font-size: 26px;
+  margin-bottom: 43px;
+  font-weight: 700;
+}
+
+/* line 67, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.upcoming_event_details .single_sidebar p i {
+  color: #F81271;
+}
+
+/* line 75, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.education_sidebar .contactMap {
+  height: 150px;
+  border: 2px solid #cbe0fb;
+  border-radius: 5px;
+  margin-bottom: 27px;
+}
+
+/* line 81, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.education_sidebar #contactMap {
+  height: 100% !important;
+}
+
+/* line 84, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.education_sidebar .gmnoprint {
+  display: none;
+}
+
+/* line 99, D:/February/education/education_HTML/scss/_event_details_style.scss */
+.upcoming_event_details .add_cart_sidebar {
+  padding: 27px 30px 37px !important;
+}
+
+/* line 2, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post {
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+/* line 5, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post:last-child {
+  margin-bottom: 0;
+}
+
+/* line 8, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .post_author {
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+/* line 11, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .post_author p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* line 14, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .post_author p i {
+  margin-right: 8px;
+}
+
+/* line 19, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .single_blog_content {
+  padding: 35px 50px 45px;
+  background-color: #f8f9fb;
+}
+
+@media (max-width: 991px) {
+  /* line 19, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .single_page_blog_post .single_blog_content {
+    padding: 15px 20px 20px;
+  }
+  /* line 24, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .single_page_blog_post .single_blog_content .post_author {
+    padding: 10px 0px 0px;
+  }
+}
+
+/* line 28, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .single_blog_content h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 991px) {
+  /* line 28, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .single_page_blog_post .single_blog_content h2 {
+    font-size: 25px;
+  }
+}
+
+/* line 36, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .single_blog_content h2 a {
+  color: #0b1c39;
+}
+
+/* line 38, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .single_blog_content h2 a:hover {
+  color: #F81271;
+}
+
+/* line 43, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .single_blog_content .read_more_btn {
+  color: #0b1c39;
+  font-size: 16px;
+  margin-top: 35px;
+  display: inline-block;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 52, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .single_blog_content .read_more_btn i {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+/* line 56, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_blog_post .single_blog_content .read_more_btn:hover {
+  color: #F81271;
+}
+
+/* line 63, D:/February/education/education_HTML/scss/_blog_post.scss */
+.quote_post {
+  position: relative;
+}
+
+/* line 65, D:/February/education/education_HTML/scss/_blog_post.scss */
+.quote_post .quote_icon_1 {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+}
+
+/* line 70, D:/February/education/education_HTML/scss/_blog_post.scss */
+.quote_post .quote_icon_2 {
+  position: absolute;
+  left: 50px;
+  top: 0;
+}
+
+/* line 77, D:/February/education/education_HTML/scss/_blog_post.scss */
+.quote_post p, .link_post p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* line 80, D:/February/education/education_HTML/scss/_blog_post.scss */
+.quote_post p a, .link_post p a {
+  color: #626a77;
+}
+
+/* line 82, D:/February/education/education_HTML/scss/_blog_post.scss */
+.quote_post p a:hover, .link_post p a:hover {
+  color: #F81271;
+}
+
+/* line 88, D:/February/education/education_HTML/scss/_blog_post.scss */
+.quote_post .post_author p, .link_post .post_author p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* line 96, D:/February/education/education_HTML/scss/_blog_post.scss */
+.video_post .post_thumb {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 99, D:/February/education/education_HTML/scss/_blog_post.scss */
+.video_post .post_thumb .popup_youtube {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-color: #fff;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 50%;
+  color: #F81271;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 45%;
+}
+
+/* line 113, D:/February/education/education_HTML/scss/_blog_post.scss */
+.video_post .post_thumb .popup_youtube span {
+  max-width: 16px;
+  text-shadow: 0px 10px 16px rgba(37, 114, 255, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 119, D:/February/education/education_HTML/scss/_blog_post.scss */
+.video_post .post_thumb .popup_youtube:hover span {
+  box-shadow: none;
+}
+
+/* line 127, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_blog_details .single_page_blog_post {
+  margin-bottom: 39px;
+}
+
+/* line 130, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_blog_details img {
+  margin-bottom: 35px;
+}
+
+/* line 133, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_blog_details h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+
+@media (max-width: 991px) {
+  /* line 133, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .single_blog_details h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+/* line 142, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_blog_details p {
+  margin-bottom: 25px;
+}
+
+/* line 145, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_blog_details .single_blog_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 23px;
+}
+
+/* line 151, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_blog_details .single_blog_list p {
+  color: #445363;
+  margin-bottom: 8px;
+  flex: 45% 0 0;
+}
+
+@media (max-width: 991px) {
+  /* line 151, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .single_blog_details .single_blog_list p {
+    flex: 100% 0 0;
+  }
+}
+
+/* line 158, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_blog_details .single_blog_list p i {
+  color: #F81271;
+  margin-right: 10px;
+}
+
+/* line 165, D:/February/education/education_HTML/scss/_blog_post.scss */
+.blog_page_single_item {
+  margin-bottom: 70px;
+  margin-top: 95px;
+}
+
+@media (max-width: 991px) {
+  /* line 165, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .blog_page_single_item {
+    margin-top: 40px;
+  }
+}
+
+/* line 171, D:/February/education/education_HTML/scss/_blog_post.scss */
+.blog_page_single_item .reply_btn {
+  color: #445363;
+  display: flex;
+  align-items: center;
+}
+
+/* line 175, D:/February/education/education_HTML/scss/_blog_post.scss */
+.blog_page_single_item .reply_btn i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* line 179, D:/February/education/education_HTML/scss/_blog_post.scss */
+.blog_page_single_item .reply_btn:hover {
+  color: #F81271;
+}
+
+/* line 183, D:/February/education/education_HTML/scss/_blog_post.scss */
+.blog_page_single_item .btn_3 {
+  margin-top: 25px;
+}
+
+/* line 187, D:/February/education/education_HTML/scss/_blog_post.scss */
+.blog_page_single_item input:focus {
+  border: 1px solid #f2f2f2 !important;
+}
+
+/* line 192, D:/February/education/education_HTML/scss/_blog_post.scss */
+.tag_share_list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  margin-top: 50px;
+  border-top: 1px solid #dce1e9;
+}
+
+@media (max-width: 991px) {
+  /* line 192, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .tag_share_list {
+    display: block;
+  }
+}
+
+/* line 201, D:/February/education/education_HTML/scss/_blog_post.scss */
+.tag_share_list h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 8px;
+  margin-bottom: 0;
+}
+
+/* line 207, D:/February/education/education_HTML/scss/_blog_post.scss */
+.tag_share_list .btn_4 {
+  padding: 5px 21px;
+  margin-left: 10px;
+}
+
+@media (max-width: 991px) {
+  /* line 207, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .tag_share_list .btn_4 {
+    margin: 10px 10px 0 0;
+  }
+}
+
+/* line 215, D:/February/education/education_HTML/scss/_blog_post.scss */
+.tag_share_list .share_icon_list h4 {
+  margin-right: 0;
+}
+
+/* line 218, D:/February/education/education_HTML/scss/_blog_post.scss */
+.tag_share_list .share_icon_list a {
+  font-size: 14px;
+  color: #626a77;
+  margin-left: 15px;
+}
+
+/* line 222, D:/February/education/education_HTML/scss/_blog_post.scss */
+.tag_share_list .share_icon_list a:hover {
+  color: #F81271;
+}
+
+@media (max-width: 991px) {
+  /* line 229, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .post_tag {
+    display: inline-block !important;
+  }
+}
+
+/* line 234, D:/February/education/education_HTML/scss/_blog_post.scss */
+.post_author {
+  padding: 30px 30px 48px;
+}
+
+/* line 236, D:/February/education/education_HTML/scss/_blog_post.scss */
+.post_author img {
+  max-width: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 244, D:/February/education/education_HTML/scss/_blog_post.scss */
+.post_author .author_details h5 {
+  font-size: 18px;
+  margin-bottom: 11px;
+}
+
+/* line 247, D:/February/education/education_HTML/scss/_blog_post.scss */
+.post_author .author_details h5 span {
+  color: #626a77;
+  display: block;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+/* line 254, D:/February/education/education_HTML/scss/_blog_post.scss */
+.post_author .author_details p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  /* line 259, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .share_icon_list {
+    margin-top: 20px;
+  }
+}
+
+/* line 265, D:/February/education/education_HTML/scss/_blog_post.scss */
+.single_page_header .icon_menu {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  /* line 269, D:/February/education/education_HTML/scss/_blog_post.scss */
+  .blog_sidebar {
+    margin-top: 50px;
+  }
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_form {
+  margin-top: 0;
+}
+
+/* line 3, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_form h3 {
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* line 8, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_form p {
+  margin-bottom: 30px;
+}
+
+/* line 13, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_sidebar h4 {
+  font-size: 24px;
+  margin-bottom: 37px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* line 19, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_sidebar .single_contact_sidebar {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 30px;
+}
+
+/* line 23, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_sidebar .single_contact_sidebar i {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  color: #F81271;
+}
+
+/* line 29, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_sidebar .single_contact_sidebar h5 {
+  font-size: 16px;
+  margin-bottom: 11px;
+  font-weight: 500;
+}
+
+/* line 34, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_sidebar .single_contact_sidebar p {
+  line-height: 24px;
+}
+
+/* line 42, D:/February/education/education_HTML/scss/_contact.scss */
+.blog_sidebar .social_icon {
+  margin-top: 15px;
+}
+
+/* line 46, D:/February/education/education_HTML/scss/_contact.scss */
+.contactMap {
+  height: 500px;
+  border: 2px solid #cbe0fb;
+}
+
+/* line 51, D:/February/education/education_HTML/scss/_contact.scss */
+#contactMap {
+  height: 100% !important;
+}
+
+/* line 55, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_page .form_single_item input, .contact_page .form_single_item textarea {
+  border: 2px solid #f3f5f9;
+}
+
+/* line 58, D:/February/education/education_HTML/scss/_contact.scss */
+.contact_page .form_single_item input:focus, .contact_page .form_single_item textarea:focus {
+  background-color: #fff;
+  border: 2px solid #cbe0fb;
+  color: #626a77;
+  box-shadow: none;
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_error.scss */
+.error_page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 7, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_page_iner {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 10, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_page_iner h3 {
+  margin-top: 40px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/* line 17, D:/February/education/education_HTML/scss/_error.scss */
+.error_page p {
+  margin-top: 41px;
+  font-weight: 500;
+}
+
+/* line 20, D:/February/education/education_HTML/scss/_error.scss */
+.error_page p i {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+/* line 25, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_1 {
+  position: absolute;
+}
+
+/* line 28, D:/February/education/education_HTML/scss/_error.scss */
+.error_page [class^="error_icon_"] {
+  position: absolute;
+}
+
+@media (max-width: 991px) {
+  /* line 28, D:/February/education/education_HTML/scss/_error.scss */
+  .error_page [class^="error_icon_"] {
+    display: none;
+  }
+}
+
+/* line 33, D:/February/education/education_HTML/scss/_error.scss */
+.error_page [class^="error_icon_"] .layer {
+  position: relative !important;
+}
+
+/* line 37, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_1 {
+  left: 10%;
+  top: 10%;
+}
+
+/* line 41, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_2 {
+  left: 8%;
+  top: 49%;
+}
+
+/* line 45, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_3 {
+  left: 11%;
+  bottom: 10%;
+}
+
+/* line 49, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_4 {
+  left: 60%;
+  bottom: 10%;
+}
+
+/* line 53, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_5 {
+  right: 10%;
+  top: 10%;
+}
+
+/* line 57, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_6 {
+  right: 7%;
+  top: 50%;
+}
+
+/* line 61, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_7 {
+  right: 0;
+  bottom: 8%;
+}
+
+/* line 65, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_8 {
+  left: 32%;
+  top: 38%;
+}
+
+/* line 69, D:/February/education/education_HTML/scss/_error.scss */
+.error_page .error_icon_9 {
+  right: 30%;
+  top: 50%;
+}
+
+/* line 74, D:/February/education/education_HTML/scss/_error.scss */
+.icon_animation {
+  overflow: hidden;
+}
+
+/* line 77, D:/February/education/education_HTML/scss/_error.scss */
+.subscribe_form {
+  display: flex;
+  align-items: center;
+  margin-top: 71px;
+}
+
+@media (max-width: 576px) {
+  /* line 77, D:/February/education/education_HTML/scss/_error.scss */
+  .subscribe_form {
+    display: block;
+    margin-top: 30px;
+  }
+}
+
+/* line 85, D:/February/education/education_HTML/scss/_error.scss */
+.subscribe_form input {
+  width: 100%;
+  border: 1px solid #cbe0fb;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 16px 30px;
+  color: #888f9b;
+  line-height: 26px;
+}
+
+/* line 95, D:/February/education/education_HTML/scss/_error.scss */
+.subscribe_form a {
+  padding: 7px 27px;
+  display: inline-block;
+  background-color: #F81271;
+  border: 1px solid #F81271;
+  position: absolute;
+  right: 21px;
+  line-height: 8px;
+  border-radius: 50px;
+}
+
+@media (max-width: 576px) {
+  /* line 95, D:/February/education/education_HTML/scss/_error.scss */
+  .subscribe_form a {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    top: 3px;
+    right: 6px;
+  }
+}
+
+/* line 112, D:/February/education/education_HTML/scss/_error.scss */
+.subscribe_form a i {
+  font-size: 34px;
+  color: #fff;
+}
+
+/* line 119, D:/February/education/education_HTML/scss/_error.scss */
+.go_back {
+  color: #0b1c39;
+}
+
+/* line 121, D:/February/education/education_HTML/scss/_error.scss */
+.go_back:hover {
+  color: #F81271;
+}
+
+/* line 126, D:/February/education/education_HTML/scss/_error.scss */
+.subscribe_form input {
+  padding: 16px 30px;
+  line-height: 26px;
+}
+
+@media (max-width: 576px) {
+  /* line 126, D:/February/education/education_HTML/scss/_error.scss */
+  .subscribe_form input {
+    padding: 16px 105px 16px 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 137, D:/February/education/education_HTML/scss/_error.scss */
+  .error_page .subscribe_form {
+    position: relative;
+  }
+  /* line 140, D:/February/education/education_HTML/scss/_error.scss */
+  .error_page .subscribe_form a {
+    display: flex;
+    width: auto;
+    position: absolute;
+    top: -9px;
+    right: 6px;
+  }
+  /* line 146, D:/February/education/education_HTML/scss/_error.scss */
+  .error_page .subscribe_form a i {
+    font-size: 33px;
+  }
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page {
+  min-height: 94vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  /* line 1, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page {
+    margin: 50px 0;
+  }
+}
+
+/* line 10, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .comming_soon_icon_1 {
+  position: absolute;
+  left: 8%;
+  top: 10%;
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  /* line 10, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soon_icon_1 {
+    display: none;
+  }
+}
+
+/* line 19, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .comming_soon_icon_2 {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  /* line 19, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soon_icon_2 {
+    display: none;
+  }
+}
+
+/* line 28, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .comming_soon_icon_3 {
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  /* line 28, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soon_icon_3 {
+    display: none;
+  }
+}
+
+/* line 37, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .comming_soon_icon_4 {
+  position: absolute;
+  left: 90%;
+  top: 13%;
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  /* line 37, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soon_icon_4 {
+    display: none;
+  }
+}
+
+/* line 46, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .section_tittle {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+/* line 50, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .comming_soom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 54, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .comming_soom .single_countdown {
+  flex: 17% 0 0;
+  background-color: #fff;
+  box-shadow: 0px 20px 50px 0px rgba(2, 25, 55, 0.08);
+  border-radius: 10px;
+  padding: 34px 20px 34px 5%;
+  color: #626a77;
+}
+
+@media (max-width: 576px) {
+  /* line 54, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soom .single_countdown {
+    flex: 48% 0 0;
+    padding: 25px 25px 15%;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* line 54, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soom .single_countdown {
+    flex: 30% 0 0;
+    padding: 30px 25px 9%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 54, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soom .single_countdown {
+    flex: 15% 0 0;
+    padding: 30px 25px 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 54, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soom .single_countdown {
+    padding: 30px 40px 20px;
+  }
+}
+
+/* line 81, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .comming_soom .single_countdown span {
+  font-size: 70px;
+  font-weight: 500;
+  color: #0b1c39;
+  line-height: 78px;
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  /* line 81, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soom .single_countdown span {
+    font-size: 30px;
+    line-height: 38px;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 81, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soom .single_countdown span {
+    font-size: 30px;
+    line-height: 38px;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 81, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .comming_soom .single_countdown span {
+    font-size: 30px;
+    line-height: 38px;
+    display: block;
+  }
+}
+
+/* line 105, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .comming_soom .single_countdown:last-child span {
+  color: #F81271;
+}
+
+/* line 111, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .subscribe_form {
+  margin-top: 120px;
+}
+
+@media (max-width: 991px) {
+  /* line 111, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .subscribe_form {
+    margin: 50px 0;
+  }
+}
+
+/* line 116, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .subscribe_form input {
+  background-color: #fff;
+  box-shadow: 0px 3px 6px 0px rgba(2, 25, 55, 0.07);
+  border: 1px solid #fff;
+}
+
+/* line 121, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.comming_soon_page .subscribe_form a {
+  position: relative;
+  line-height: 25px;
+  color: #fff;
+  padding: 14px 35px;
+  margin-left: 41px;
+}
+
+@media (max-width: 576px) {
+  /* line 121, D:/February/education/education_HTML/scss/_comming_soon.scss */
+  .comming_soon_page .subscribe_form a {
+    margin-left: 6px;
+  }
+}
+
+/* line 133, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.copyright_content {
+  background-color: #0b1c39;
+  padding: 14.5px 0;
+}
+
+/* line 136, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.copyright_content p {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* line 140, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.copyright_content .copyright_social_icon {
+  display: flex;
+  align-items: center;
+}
+
+/* line 143, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.copyright_content .copyright_social_icon a {
+  margin-left: 20px;
+  line-height: 15px;
+}
+
+/* line 146, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.copyright_content .copyright_social_icon a i {
+  color: #8692a6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 149, D:/February/education/education_HTML/scss/_comming_soon.scss */
+.copyright_content .copyright_social_icon a i:hover {
+  color: #F81271;
+}
+
+/* line 1, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section {
+  padding: 120px 0 37px;
+  position: relative;
+}
+
+@media (max-width: 767.98px) {
+  /* line 1, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section {
+    padding: 40px 0 37px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 1, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section {
+    padding: 40px 0 37px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 1, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section {
+    padding: 100px 0 37px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 13, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .single_feature_footer {
+    margin-top: 30px;
+  }
+}
+
+/* line 17, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .single_feature_footer img {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 17, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .single_feature_footer img {
+    margin-bottom: 15px;
+  }
+}
+
+/* line 24, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_contact_info {
+  margin-top: 37px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 24, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .footer_contact_info {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 24, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .footer_contact_info {
+    margin-top: 20px;
+  }
+}
+
+/* line 32, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_contact_info a {
+  color: #F81271;
+  margin-bottom: 15px;
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  /* line 32, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .footer_contact_info a {
+    margin-bottom: 5px;
+  }
+}
+
+/* line 39, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_contact_info a i {
+  margin-right: 7px;
+}
+
+/* line 46, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_nav h4 {
+  font-size: 18px;
+  margin-bottom: 26px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  /* line 46, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .footer_nav h4 {
+    margin-bottom: 18px;
+  }
+}
+
+/* line 54, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 57, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_nav ul li {
+  list-style: none;
+}
+
+/* line 59, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_nav ul li a {
+  color: #626a77;
+  margin: 6px 0;
+  display: inline-block;
+}
+
+@media (max-width: 991px) {
+  /* line 59, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .footer_nav ul li a {
+    margin: 4px 0;
+  }
+}
+
+/* line 66, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_nav ul li a:hover {
+  color: #F81271;
+}
+
+/* line 73, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .copyright_part {
+  margin-top: 67px;
+  border-top: 1px solid #dce1e9;
+  padding-top: 18px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 78, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .copyright_part p {
+    text-align: center;
+  }
+  /* line 81, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .copyright_part .social_icon {
+    text-align: center;
+    float: none;
+  }
+}
+
+/* line 86, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .copyright_part a {
+  color: #F81271;
+}
+
+/* line 90, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_sharp_1 {
+  position: absolute;
+  bottom: 0;
+  left: 43px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 90, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .footer_sharp_1 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+/* line 100, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_sharp_2 {
+  position: absolute;
+  bottom: 134px;
+  left: 175px;
+}
+
+/* line 105, D:/February/education/education_HTML/scss/_footer.scss */
+.footer_section .footer_sharp_3 {
+  position: absolute;
+  bottom: 180px;
+  left: 110px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 111, D:/February/education/education_HTML/scss/_footer.scss */
+  .footer_section .footer_sharp_1 {
+    width: 75%;
+  }
+}
+
+/* line 116, D:/February/education/education_HTML/scss/_footer.scss */
+.social_icon {
+  float: right;
+}
+
+@media (max-width: 767.98px) {
+  /* line 116, D:/February/education/education_HTML/scss/_footer.scss */
+  .social_icon {
+    margin-top: 20px;
+  }
+}
+
+/* line 121, D:/February/education/education_HTML/scss/_footer.scss */
+.social_icon a {
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5px;
+  border: 2px solid #dce1e9;
+}
+
+/* line 132, D:/February/education/education_HTML/scss/_footer.scss */
+.social_icon a i {
+  color: #9198a4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 136, D:/February/education/education_HTML/scss/_footer.scss */
+.social_icon a:hover {
+  background-color: #F81271;
+  color: #fff;
+  border: 2px solid #F81271;
+  box-shadow: 0px 10px 20px 0px rgba(89, 149, 253, 0.4);
+}
+
+/* line 141, D:/February/education/education_HTML/scss/_footer.scss */
+.social_icon a:hover i {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
