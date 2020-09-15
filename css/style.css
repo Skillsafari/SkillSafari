@@ -452,6 +452,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 .section_tittle h2 {
   font-weight: 700;
   margin-bottom: 12px;
+  text-transform: uppercase;
  
 }
 
@@ -1863,7 +1864,7 @@ ul li {
 .banner_part .single_banner_part {
   position: relative;
   z-index: 2;
-  height: 800px;
+  height: 600px;
   display: flex;
   align-items: center;
 }
@@ -1949,6 +1950,13 @@ ul li {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* .banner_part .bg_ca {
+  background-image: url("../img/UIUXDESIGNER.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 
 /* line 57, D:/February/education/education_HTML/scss/_banner_part.scss */
 .banner_part .owl-nav button.owl-next, .banner_part .owl-nav button.owl-prev {
