@@ -6,11 +6,11 @@
     width: 40%;
 }
 .icon_menu:before{
-    color: #FCFCFC;
+    color: #ffffff;
 }
 @media (max-width: 994px) {
     .logo{
-        text-align: center;
+        text-align: left;
         max-width: 100%;
 
     }
@@ -21,13 +21,19 @@
   
 /* navigation bar*/
 .main_nav{
-    background-color: #2A2E4D;
+    background-color: #1c2042;
 }
 
 /* Course Tick icon */
 .course_icon{
     max-width: 17px;
     margin-right: 5px;
+}
+.course_details{
+  color: #1c2042;
+}
+.media-body{
+  color: #1c2042;
 }
 /* course section know more button */
 .courses_item_iner h5{
@@ -43,7 +49,7 @@
     font-weight: 700;
     text-align: left;
     margin-bottom: 1rem;
-    color: #2A2E4D;
+    color: #1c2042;
 }
 .courses_item_iner ul{
   padding:0px;
@@ -52,48 +58,94 @@
     margin-bottom:5px ;
   }
 .course_h2{
-    color: #fcfcfc;
+    color: #ffffff;
 }
 
 
 /* below course section */
 .Ongoing_course{
-    background-color: #FFAA33;
+  background: rgb(251,130,0);
+  background: linear-gradient(90deg, rgba(251,130,0,1) 0%, rgba(251,190,0,0.9556197478991597) 100%);
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
 
+.student_review_tittle h2{
+  margin-bottom: 1.5rem!important;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    
+}
+
+
+
+
 /* testimonials */
 .testimonialStyle{
     padding: 100px 0px 30px 0px;
 }
-.alchemystStyle{
-    padding: 30px 0px 30px 0px;
-}
-.alchemystParah{
-    font-size: 22px;
-    margin-top: 3rem;
-}
+
 /* video section */
 .motivation_content{
-    color: #fcfcfc;
+    color: #ffffff;
 }
+/* Alchymest Page*/
+/* Alchymest */
+.alchemystStyle{
+padding: 100px 0px 50px 0px;
+}
+.breadcrumb_part_alchymest {
+  background-image: url("../img/breadcrumb_bg/breadcrumb_bg-alchymest.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 450px;
+}
+.alchymest_padding{
+  padding: 80px 0;
+}
+.nominal_heading{
+  padding: 30px 0px;
+}
+.nominal_content{
+  padding: 2.5rem;
+}
+.nominal_div{
+  border-right: 1px solid #eeeeee;
+}
+@media(max-width:550px){
+  .nominal_div{
+    border-right: none;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+.scholarship-img{
+  width: 88%;
+}
+/* split section below scholarship */
+.check_list_alchymest{
+  display: flex;
+  padding: 2rem;
+  border-bottom: 1px solid #eeeeee;
+}
+
 
 
 /* Footer */
 .dark-bg,
 #help {
-  background: #2a2e4d;
-  padding: 1.5rem 0;
-  color: #fcfcfc;
+  background: #1c2042;
+  /* padding: 1.5rem 0; */
+  color: #ffffff;
 }
 
 .dark-bg .section-title,
 .dark-bg .title-line,
 .dark-bg .caption {
-  color: #fcfcfc;
-  border-color: #fcfcfc;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 
@@ -112,7 +164,7 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
-    color: #fcfcfc;
+    color: #ffffff;
     padding: 25px 0px;
   }
   
@@ -122,16 +174,16 @@
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    color: #fcfcfc;
+    color: #ffffff;
   }
   
   .footer-main .contact-widget p a {
-    color: #f81271;
+    color: #f80a6f;
     transition: all 0.2s ease-out;
   }
   
   .footer-main .contact-widget p a:hover {
-    color: #fcfcfc;
+    color: #ffffff;
   }
   
   a:hover,
@@ -142,16 +194,16 @@
   button:focus {
     text-decoration: none;
     outline: none;
-    color: #fcfcfc;
+    color: #ffffff;
   }
   
   .footer-main .about-widget .f-list li a {
-    color: #fcfcfc;
+    color: #ffffff;
     font-size: 14px;
   }
   
   .footer-main .about-widget .f-list li a:hover {
-    color: #f81271;
+    color: #f80a6f;
   }
   
   .footer-main .about-widget .f-list li {
@@ -180,7 +232,7 @@
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    color: #fcfcfc;
+    color: #ffffff;
   }
   
   .footer-main .social-icon a {
@@ -192,7 +244,7 @@
     font-size: 18px;
     text-align: center;
     border-radius: 50%;
-    color: #fcfcfc;
+    color: #ffffff;
     margin: 0.2rem 0.1rem 0.4rem;
   
     -webkit-transition: all 0.2s linear;
@@ -201,9 +253,9 @@
   }
   
   .footer-main .social-icon a:hover {
-    background: #f81271;
-    border-color: #f81271;
-    color: #fcfcfc;
+    background: #f80a6f;
+    border-color: #f80a6f;
+    color: #ffffff;
   }
   
   .footer-main .social-icon a+a {
@@ -212,7 +264,7 @@
   
   .footer-main .f-title {
     margin-bottom: 1rem;
-    color: #fcfcfc;
+    color: #ffffff;
     font-weight: 700;
     font-size: 1rem;
   }

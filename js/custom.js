@@ -60,12 +60,6 @@
       });
   }
 
-  //niceselect select jquery
-  var niceSelect = $('.niceSelect');
-  if (niceSelect.length > 0) {
-    niceSelect.niceSelect();
-  }
-
   //banner slider js
   var bannerSlider = $(".banner_part");
   if (bannerSlider.length) {
@@ -89,17 +83,6 @@
               }
           },
       });
-      // bannerSlider.on("translate.owl.carousel", function(){
-      //     $(".banner_part h5").removeClass("animated fadeInUp").css({'opacity':'0'});
-      //     $(".banner_part h2").removeClass("animated fadeInUp").css({'opacity':'0'});
-      //     $(".banner_part .btn_2").removeClass("animated fadeInUp").css({'opacity':'0'});
-      // });
-
-      // bannerSlider.on("translated.owl.carousel", function(){
-      //     $(".banner_part h5").addClass("animated fadeInUp").css({'opacity':'0'});
-      //     $(".banner_part h2").addClass("animated fadeInUp").css({'opacity':''});
-      //     $(".banner_part .btn_2").addClass("animated fadeInUp").css({'opacity':'0'});
-      // });
   }
 
   //popular courses js
@@ -184,36 +167,6 @@
       });
   }
 
-  //time countdow
-  $(document).ready(function() {
-      function coursesTimer() {
-          var endTime = new Date("21 March 2020 9:56:00 GMT+01:00");
-          endTime = (Date.parse(endTime) / 1000);
-          var now = new Date();
-          now = (Date.parse(now) / 1000);
-          var timeLeft = endTime - now;
-          var days = Math.floor(timeLeft / 86400);
-          var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-          var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
-          var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
-          if (hours < "10") {
-              hours = "0" + hours;
-          }
-          if (minutes < "10") {
-              minutes = "0" + minutes;
-          }
-          if (seconds < "10") {
-              seconds = "0" + seconds;
-          }
-          $("#days").html(days + "<span>Days</span>");
-          $("#hours").html(hours + "<span>Hours</span>");
-          $("#minutes").html(minutes + "<span>Minutes</span>");
-          $("#seconds").html(seconds + "<span>Seconds</span>");
-      }
-      setInterval(function() {
-          coursesTimer();
-      }, 1000);
-  });
 
   //event time countdown
 
@@ -262,36 +215,5 @@
       $(".preloder_part").fadeOut();
       $(".spinner").delay(1000).fadeOut("slow");
   });
-
-  // map js
-  if ($('#contactMap').length) {
-      var $lat = $('#contactMap').data('lat');
-      var $lon = $('#contactMap').data('lon');
-      var $zoom = $('#contactMap').data('zoom');
-      var $marker = $('#contactMap').data('marker');
-      var $info = $('#contactMap').data('info');
-      var $markerLat = $('#contactMap').data('mlat');
-      var $markerLon = $('#contactMap').data('mlon');
-      var map = new GMaps({
-          el: '#contactMap',
-          lat: $lat,
-          lng: $lon,
-          scrollwheel: false,
-          scaleControl: true,
-          streetViewControl: false,
-          panControl: true,
-          disableDoubleClickZoom: true,
-          mapTypeControl: false,
-          zoom: $zoom,
-      });
-      map.addMarker({
-          lat: $markerLat,
-          lng: $markerLon,
-          icon: $marker,
-          infoWindow: {
-              content: $info
-          }
-      })
-  }
 
 }(jQuery));
