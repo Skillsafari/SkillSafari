@@ -20,6 +20,11 @@ a:hover {
   text-decoration: none;
 }
 
+ul{
+  padding: 0;
+  margin: 0;
+}
+
 /* line 19, D:/February/education/education_HTML/scss/_reset.scss */
 input:hover, input:focus {
   outline: none !important;

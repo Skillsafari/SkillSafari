@@ -22,19 +22,6 @@
     }
   })
 
-  //video popup
-  var video_popup = $('.popup_youtube');
-  if (video_popup.length > 0) {
-    video_popup.magnificPopup({
-		type: 'iframe',
-		mainClass: 'mfp-fade',
-		removalDelay: 160,
-		preloader: false,
-		fixedContentPos: false
-    });
-  }
-
-
   //counter js
   var time =  $('.timer');
   if (time.length > 0) {
